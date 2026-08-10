@@ -14,9 +14,11 @@ npm run dev
 
 ## Deploy (Vercel)
 
-**Live:** [https://path-to-doomsday.vercel.app](https://path-to-doomsday.vercel.app)
+**Live:** [https://doomsdayroadmap.com](https://doomsdayroadmap.com) (also [path-to-doomsday.vercel.app](https://path-to-doomsday.vercel.app))
 
 GitHub repo is connected for auto-deploys. Project **Root Directory** is `web`.
+
+Set `NEXT_PUBLIC_SITE_URL` in Vercel if the canonical host changes (defaults to `https://doomsdayroadmap.com`).
 
 Manual CLI deploy:
 

@@ -2157,9 +2157,58 @@ a.chip-btn {
   font-size: 0.8rem;
   line-height: 1.55;
   text-align: center;
-  max-width: 42rem;
+  max-width: 44rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.site-footer-brand {
+  margin: 0 0 0.85rem !important;
+  font-family: var(--font-display-stack);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.site-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.85rem;
+  justify-content: center;
+  margin: 0 0 1rem;
+}
+
+.site-footer-nav a {
+  color: color-mix(in oklab, #fff 78%, var(--muted));
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.site-footer-nav a:hover,
+.site-footer-nav a:focus-visible {
+  color: #fff;
+  outline: none;
+}
+
+.site-footer-credit {
+  margin: 0 0 0.85rem !important;
+  color: color-mix(in oklab, #fff 72%, var(--muted));
+}
+
+.site-footer-credit a {
+  color: var(--accent-2);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer-credit a:hover,
+.site-footer-credit a:focus-visible {
+  text-decoration: underline;
+  outline: none;
 }
 
 .site-footer p {
@@ -2168,6 +2217,68 @@ a.chip-btn {
 
 .site-footer p + p {
   margin-top: 0.65rem;
+}
+
+/* Static content / legal pages */
+.content-page {
+  position: relative;
+  min-height: 100vh;
+  padding: clamp(1.25rem, 3vw, 2.25rem) clamp(1rem, 3vw, 2rem) 3rem;
+  background:
+    radial-gradient(
+      100% 60% at 50% -10%,
+      color-mix(in oklab, #e11d2e 14%, transparent),
+      transparent 55%
+    ),
+    var(--bg);
+}
+
+.content-page-inner {
+  width: min(44rem, 100%);
+  margin: 0 auto;
+}
+
+.content-page-header {
+  margin: 1.1rem 0 1.5rem;
+}
+
+.content-updated {
+  margin: 0.65rem 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.content-prose {
+  color: color-mix(in oklab, #fff 86%, var(--muted));
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.content-prose h2 {
+  margin: 1.75rem 0 0.55rem;
+  font-family: var(--font-display-stack);
+  font-weight: 700;
+  font-size: clamp(1.35rem, 3vw, 1.7rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.05;
+}
+
+.content-prose p {
+  margin: 0 0 0.95rem;
+}
+
+.content-prose a {
+  color: var(--accent-2);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.content-prose strong {
+  color: #fff;
+  font-weight: 700;
 }
 
 /* Calendar plan modal */

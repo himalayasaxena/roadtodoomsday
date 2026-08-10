@@ -5,7 +5,8 @@ const SITE_DESCRIPTION =
   "MCU watch order to Avengers: Doomsday. Recommended, Crash, Complete, character arcs, and custom journeys with runtimes, scores, and where to watch.";
 
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
+  "https://doomsdayroadmap.com";
 
 export const rootMetadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -22,21 +23,36 @@ export const rootMetadata: Metadata = {
     "Marvel timeline",
     "X-Men MCU",
     "Fantastic Four First Steps",
+    "Doomsday roadmap",
   ],
-  authors: [{ name: SITE_NAME }],
+  authors: [
+    { name: "Himalaya Saxena", url: "https://himalayasaxena.com" },
+    { name: SITE_NAME },
+  ],
+  creator: "Himalaya Saxena",
+  publisher: "Himalaya Saxena",
   openGraph: {
     type: "website",
     locale: "en_US",
     siteName: SITE_NAME,
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    images: [{ url: "/media/backdrops/avengers-doomsday.jpg", width: 1280, height: 720, alt: "Avengers: Doomsday" }],
+    url: siteUrl,
+    images: [
+      {
+        url: "/media/backdrops/avengers-doomsday.jpg",
+        width: 1280,
+        height: 720,
+        alt: "Avengers: Doomsday",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
     images: ["/media/backdrops/avengers-doomsday.jpg"],
+    creator: "@himalayasaxena",
   },
   robots: {
     index: true,
@@ -66,7 +82,9 @@ export function pathMetadata(opts: {
       description,
       url: opts.path,
       type: "website",
-      images: [{ url: "/media/backdrops/avengers-doomsday.jpg", alt: opts.trackName }],
+      images: [
+        { url: "/media/backdrops/avengers-doomsday.jpg", alt: opts.trackName },
+      ],
     },
     twitter: {
       card: "summary_large_image",
@@ -83,10 +101,16 @@ export function websiteJsonLd() {
     name: SITE_NAME,
     url: siteUrl,
     description: SITE_DESCRIPTION,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${siteUrl}/?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
+    creator: {
+      "@type": "Person",
+      name: "Himalaya Saxena",
+      url: "https://himalayasaxena.com",
+      sameAs: [
+        "https://himalayasaxena.com",
+        "https://instagram.com/himalayasaxena",
+        "https://www.linkedin.com/in/himalayasaxena",
+        "https://github.com/himalayasaxena",
+      ],
     },
   };
 }
