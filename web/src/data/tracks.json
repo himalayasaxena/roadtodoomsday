@@ -1,0 +1,590 @@
+{
+  "version": 3,
+  "defaultTrack": "prep",
+  "tracks": [
+    {
+      "id": "complete",
+      "name": "Complete Multiverse Path",
+      "description": "Full release-order marathon \u2014 MCU, Fox, Sony, Defenders \u2014 ending at Avengers: Doomsday.",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "x-men-2000",
+        "spider-man-2002",
+        "x2",
+        "spider-man-2",
+        "fantastic-four-2005",
+        "x-men-the-last-stand",
+        "spider-man-3",
+        "fantastic-four-silver-surfer",
+        "iron-man",
+        "incredible-hulk",
+        "x-men-origins-wolverine",
+        "iron-man-2",
+        "thor",
+        "x-men-first-class",
+        "captain-america-the-first-avenger",
+        "the-avengers",
+        "amazing-spider-man",
+        "iron-man-3",
+        "the-wolverine",
+        "thor-the-dark-world",
+        "captain-america-the-winter-soldier",
+        "amazing-spider-man-2",
+        "x-men-days-of-future-past",
+        "guardians-of-the-galaxy",
+        "daredevil-s1",
+        "avengers-age-of-ultron",
+        "ant-man",
+        "fantastic-four-2015",
+        "deadpool",
+        "daredevil-s2",
+        "captain-america-civil-war",
+        "x-men-apocalypse",
+        "doctor-strange",
+        "logan",
+        "guardians-of-the-galaxy-vol-2",
+        "spider-man-homecoming",
+        "defenders",
+        "thor-ragnarok",
+        "punisher-s1",
+        "black-panther",
+        "avengers-infinity-war",
+        "deadpool-2",
+        "ant-man-and-the-wasp",
+        "daredevil-s3",
+        "punisher-s2",
+        "captain-marvel",
+        "avengers-endgame",
+        "dark-phoenix",
+        "spider-man-far-from-home",
+        "new-mutants",
+        "wandavision",
+        "falcon-and-winter-soldier",
+        "loki-s1",
+        "black-widow",
+        "what-if-s1",
+        "shang-chi",
+        "eternals",
+        "hawkeye",
+        "spider-man-no-way-home",
+        "doctor-strange-mom",
+        "ms-marvel",
+        "thor-love-and-thunder",
+        "she-hulk",
+        "black-panther-wakanda-forever",
+        "ant-man-quantumania",
+        "guardians-of-the-galaxy-vol-3",
+        "secret-invasion",
+        "loki-s2",
+        "the-marvels",
+        "echo",
+        "deadpool-wolverine",
+        "captain-america-brave-new-world",
+        "daredevil-born-again",
+        "thunderbolts",
+        "ironheart",
+        "fantastic-four-first-steps",
+        "spider-man-brand-new-day",
+        "visionquest",
+        "avengers-doomsday",
+        "avengers-secret-wars"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 8959,
+          "hours": 149.3,
+          "hoursRounded": 149,
+          "daysWatching8h": 18.7,
+          "label": "149h 19m"
+        },
+        "toDoomsday": {
+          "minutes": 8809,
+          "hours": 146.8,
+          "hoursRounded": 147,
+          "daysWatching8h": 18.4,
+          "label": "146h 49m"
+        }
+      },
+      "kind": "path"
+    },
+    {
+      "id": "prep",
+      "name": "Doomsday Prep (Recommended)",
+      "description": "Strong Doomsday context: key MCU, X-Men, and Deadpool without every side quest.",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "x-men-2000",
+        "x2",
+        "x-men-the-last-stand",
+        "iron-man",
+        "thor",
+        "x-men-first-class",
+        "captain-america-the-first-avenger",
+        "the-avengers",
+        "captain-america-the-winter-soldier",
+        "x-men-days-of-future-past",
+        "avengers-age-of-ultron",
+        "ant-man",
+        "deadpool",
+        "captain-america-civil-war",
+        "doctor-strange",
+        "thor-ragnarok",
+        "black-panther",
+        "avengers-infinity-war",
+        "deadpool-2",
+        "ant-man-and-the-wasp",
+        "avengers-endgame",
+        "wandavision",
+        "falcon-and-winter-soldier",
+        "loki-s1",
+        "black-widow",
+        "shang-chi",
+        "hawkeye",
+        "spider-man-no-way-home",
+        "doctor-strange-mom",
+        "black-panther-wakanda-forever",
+        "ant-man-quantumania",
+        "loki-s2",
+        "deadpool-wolverine",
+        "captain-america-brave-new-world",
+        "thunderbolts",
+        "fantastic-four-first-steps",
+        "spider-man-brand-new-day",
+        "avengers-doomsday"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 4549,
+          "hours": 75.8,
+          "hoursRounded": 76,
+          "daysWatching8h": 9.5,
+          "label": "75h 49m"
+        },
+        "toDoomsday": {
+          "minutes": 4549,
+          "hours": 75.8,
+          "hoursRounded": 76,
+          "daysWatching8h": 9.5,
+          "label": "75h 49m"
+        }
+      },
+      "kind": "path"
+    },
+    {
+      "id": "crash",
+      "name": "Crash Course",
+      "description": "Must-sees only when opening night is close \u2014 Cap, Avengers, Loki, Strange, Wakanda, Deadpool & Wolverine, Thunderbolts, Fantastic Four.",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "x-men-2000",
+        "x2",
+        "captain-america-the-first-avenger",
+        "the-avengers",
+        "captain-america-the-winter-soldier",
+        "captain-america-civil-war",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "falcon-and-winter-soldier",
+        "loki-s1",
+        "doctor-strange-mom",
+        "black-panther-wakanda-forever",
+        "loki-s2",
+        "deadpool-wolverine",
+        "captain-america-brave-new-world",
+        "thunderbolts",
+        "fantastic-four-first-steps",
+        "avengers-doomsday"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 2205,
+          "hours": 36.8,
+          "hoursRounded": 37,
+          "daysWatching8h": 4.6,
+          "label": "36h 45m"
+        },
+        "toDoomsday": {
+          "minutes": 2205,
+          "hours": 36.8,
+          "hoursRounded": 37,
+          "daysWatching8h": 4.6,
+          "label": "36h 45m"
+        }
+      },
+      "kind": "path"
+    },
+    {
+      "id": "xmen",
+      "name": "Fox X-Men Branch",
+      "description": "Mutant-only branch in real release order: classic Fox X-Men through Deadpool & Wolverine. Ideal if you already know the MCU mainline and just need the X-Men / Deadpool context before those characters collide with the Avengers in Doomsday.",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "x-men-2000",
+        "x2",
+        "x-men-the-last-stand",
+        "x-men-origins-wolverine",
+        "x-men-first-class",
+        "the-wolverine",
+        "x-men-days-of-future-past",
+        "deadpool",
+        "x-men-apocalypse",
+        "logan",
+        "deadpool-2",
+        "dark-phoenix",
+        "new-mutants",
+        "deadpool-wolverine"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 1683,
+          "hours": 28.1,
+          "hoursRounded": 28,
+          "daysWatching8h": 3.5,
+          "label": "28h 03m"
+        },
+        "toDoomsday": {
+          "minutes": 1683,
+          "hours": 28.1,
+          "hoursRounded": 28,
+          "daysWatching8h": 3.5,
+          "label": "28h 03m"
+        }
+      },
+      "kind": "universe"
+    },
+    {
+      "id": "iron-man",
+      "name": "Iron Man",
+      "description": "Tony Stark\u2019s lead arc in release order \u2014 the Iron Man solos plus the Avengers chapters where he drives the story. Best if you want the full genius-billionaire-playboy-philanthropist thread from origin to Endgame.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "iron-man",
+        "iron-man-2",
+        "the-avengers",
+        "iron-man-3",
+        "avengers-age-of-ultron",
+        "captain-america-civil-war",
+        "avengers-infinity-war",
+        "avengers-endgame"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 1141,
+          "hours": 19.0,
+          "hoursRounded": 19,
+          "daysWatching8h": 2.4,
+          "label": "19h 01m"
+        },
+        "toDoomsday": {
+          "minutes": 1141,
+          "hours": 19.0,
+          "hoursRounded": 19,
+          "daysWatching8h": 2.4,
+          "label": "19h 01m"
+        }
+      }
+    },
+    {
+      "id": "thor",
+      "name": "Thor",
+      "description": "Thor\u2019s lead arc in release order \u2014 the solo films plus the Avengers and Guardians crossovers that reshape his world. Follow the God of Thunder from fish-out-of-water prince to Endgame veteran.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "thor",
+        "the-avengers",
+        "thor-the-dark-world",
+        "avengers-age-of-ultron",
+        "thor-ragnarok",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "thor-love-and-thunder",
+        "guardians-of-the-galaxy-vol-3"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 1240,
+          "hours": 20.7,
+          "hoursRounded": 21,
+          "daysWatching8h": 2.6,
+          "label": "20h 40m"
+        },
+        "toDoomsday": {
+          "minutes": 1240,
+          "hours": 20.7,
+          "hoursRounded": 21,
+          "daysWatching8h": 2.6,
+          "label": "20h 40m"
+        }
+      }
+    },
+    {
+      "id": "captain-america",
+      "name": "Captain America",
+      "description": "The Cap mantle in release order \u2014 Steve Rogers through Sam Wilson. Covers the First Avenger origins, Winter Soldier, Civil War, Endgame handoff, and Brave New World so you see how the shield\u2019s meaning changes before Doomsday.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "captain-america-the-first-avenger",
+        "the-avengers",
+        "captain-america-the-winter-soldier",
+        "avengers-age-of-ultron",
+        "captain-america-civil-war",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "falcon-and-winter-soldier",
+        "captain-america-brave-new-world"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 1189,
+          "hours": 19.8,
+          "hoursRounded": 20,
+          "daysWatching8h": 2.5,
+          "label": "19h 49m"
+        },
+        "toDoomsday": {
+          "minutes": 1189,
+          "hours": 19.8,
+          "hoursRounded": 20,
+          "daysWatching8h": 2.5,
+          "label": "19h 49m"
+        }
+      }
+    },
+    {
+      "id": "spider-man",
+      "name": "Spider-Man",
+      "description": "Spider-Man lead titles in release order \u2014 Sony\u2019s Tobey/Andrew eras plus the MCU Holland arc (including Civil War\u2019s intro). Built for web-slinger fans who want the full Spider-Verse context heading into Brand New Day and Doomsday.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "spider-man-2002",
+        "spider-man-2",
+        "spider-man-3",
+        "amazing-spider-man",
+        "amazing-spider-man-2",
+        "captain-america-civil-war",
+        "spider-man-homecoming",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "spider-man-far-from-home",
+        "spider-man-no-way-home",
+        "spider-man-brand-new-day"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 1681,
+          "hours": 28.0,
+          "hoursRounded": 28,
+          "daysWatching8h": 3.5,
+          "label": "28h 01m"
+        },
+        "toDoomsday": {
+          "minutes": 1681,
+          "hours": 28.0,
+          "hoursRounded": 28,
+          "daysWatching8h": 3.5,
+          "label": "28h 01m"
+        }
+      }
+    },
+    {
+      "id": "doctor-strange",
+      "name": "Doctor Strange",
+      "description": "Stephen Strange\u2019s lead arc in release order \u2014 the solos plus Infinity War, Endgame, and No Way Home. Ideal if you care about the mystic arts, multiverse rules, and how Strange sets the board for Doomsday.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "doctor-strange",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "spider-man-no-way-home",
+        "doctor-strange-mom"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 719,
+          "hours": 12.0,
+          "hoursRounded": 12,
+          "daysWatching8h": 1.5,
+          "label": "11h 59m"
+        },
+        "toDoomsday": {
+          "minutes": 719,
+          "hours": 12.0,
+          "hoursRounded": 12,
+          "daysWatching8h": 1.5,
+          "label": "11h 59m"
+        }
+      }
+    },
+    {
+      "id": "guardians",
+      "name": "Guardians of the Galaxy",
+      "description": "Guardians of the Galaxy lead arc in release order \u2014 the trilogy plus Infinity War and Endgame. Perfect if you want Star-Lord\u2019s crew, Rocket, and the cosmic stakes without the entire MCU catalog.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "guardians-of-the-galaxy",
+        "guardians-of-the-galaxy-vol-2",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "guardians-of-the-galaxy-vol-3"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 737,
+          "hours": 12.3,
+          "hoursRounded": 12,
+          "daysWatching8h": 1.5,
+          "label": "12h 17m"
+        },
+        "toDoomsday": {
+          "minutes": 737,
+          "hours": 12.3,
+          "hoursRounded": 12,
+          "daysWatching8h": 1.5,
+          "label": "12h 17m"
+        }
+      }
+    },
+    {
+      "id": "black-panther",
+      "name": "Black Panther",
+      "description": "Wakanda / Black Panther arc in release order \u2014 from Civil War\u2019s introduction through Wakanda Forever. Follow T\u2019Challa, Shuri, and the nation\u2019s place in the wider MCU before Doomsday.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "captain-america-civil-war",
+        "black-panther",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "black-panther-wakanda-forever"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 772,
+          "hours": 12.9,
+          "hoursRounded": 13,
+          "daysWatching8h": 1.6,
+          "label": "12h 52m"
+        },
+        "toDoomsday": {
+          "minutes": 772,
+          "hours": 12.9,
+          "hoursRounded": 13,
+          "daysWatching8h": 1.6,
+          "label": "12h 52m"
+        }
+      }
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "description": "Loki\u2019s lead arc in release order \u2014 the Thor films through Loki Seasons 1\u20132. Essential if you want the TVA, Variants, and timeline lore that feeds directly into Doomsday\u2019s multiverse conflict.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "thor",
+        "the-avengers",
+        "thor-the-dark-world",
+        "thor-ragnarok",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "loki-s1",
+        "loki-s2"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 928,
+          "hours": 15.5,
+          "hoursRounded": 15,
+          "daysWatching8h": 1.9,
+          "label": "15h 28m"
+        },
+        "toDoomsday": {
+          "minutes": 928,
+          "hours": 15.5,
+          "hoursRounded": 15,
+          "daysWatching8h": 1.9,
+          "label": "15h 28m"
+        }
+      }
+    },
+    {
+      "id": "wanda-vision",
+      "name": "Wanda & Vision",
+      "description": "Wanda and Vision\u2019s lead arc in release order \u2014 Age of Ultron through WandaVision, Doctor Strange in the Multiverse of Madness, and VisionQuest. For fans focused on chaos magic, grief, and Westview\u2019s aftermath.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "avengers-age-of-ultron",
+        "captain-america-civil-war",
+        "avengers-infinity-war",
+        "avengers-endgame",
+        "wandavision",
+        "doctor-strange-mom",
+        "visionquest"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 1100,
+          "hours": 18.3,
+          "hoursRounded": 18,
+          "daysWatching8h": 2.3,
+          "label": "18h 20m"
+        },
+        "toDoomsday": {
+          "minutes": 1100,
+          "hours": 18.3,
+          "hoursRounded": 18,
+          "daysWatching8h": 2.3,
+          "label": "18h 20m"
+        }
+      }
+    },
+    {
+      "id": "deadpool",
+      "name": "Deadpool",
+      "description": "Wade Wilson\u2019s lead films only, in release order \u2014 Deadpool, Deadpool 2, and Deadpool & Wolverine. A short, sharp mutant comedy path if you mainly need the fourth-wall merc before he crashes into Doomsday.",
+      "kind": "character",
+      "orderField": "sequenceOrder",
+      "titleIds": [
+        "deadpool",
+        "deadpool-2",
+        "deadpool-wolverine"
+      ],
+      "runtime": {
+        "allTitles": {
+          "minutes": 357,
+          "hours": 6.0,
+          "hoursRounded": 6,
+          "daysWatching8h": 0.7,
+          "label": "5h 57m"
+        },
+        "toDoomsday": {
+          "minutes": 357,
+          "hours": 6.0,
+          "hoursRounded": 6,
+          "daysWatching8h": 0.7,
+          "label": "5h 57m"
+        }
+      }
+    }
+  ],
+  "countdown": {
+    "targetId": "avengers-doomsday",
+    "targetTitle": "Avengers: Doomsday",
+    "releaseAt": "2026-12-18T00:00:00Z",
+    "releaseDisplay": "December 18, 2026",
+    "note": "Compare hours until release vs hours of watch-path if user starts now."
+  },
+  "characterTrackRule": {
+    "rule": "lead-focused",
+    "order": "releaseOrder / sequenceOrder",
+    "include": "Solo/co-lead titles + team films where the character is central",
+    "exclude": "Pure cameos and brief walk-ons"
+  }
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" data-era="phase-6">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Doomsday Watch Path</title>
+  <link rel="stylesheet" href="../data/themes.css" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--fg);
+      transition: background 0.6s ease, color 0.6s ease;
+    }
+    header {
+      padding: 2rem clamp(1rem, 4vw, 3rem) 1rem;
+      background: var(--bg-alt);
+    }
+    header img.wordmark { width: min(520px, 100%); height: auto; display: block; }
+    header p { color: var(--muted); font-family: Helvetica, Arial, sans-serif; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.75rem; }
+
+    .counter {
+      margin: 0 clamp(1rem, 4vw, 3rem) 1rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+      background: color-mix(in srgb, var(--bg-alt) 90%, var(--accent) 5%);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 0.85rem 1.25rem;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    .counter .cell .label {
+      font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);
+    }
+    .counter .cell .value {
+      font-size: clamp(1.35rem, 3vw, 1.85rem); font-weight: 700; color: var(--fg); margin-top: 0.15rem;
+      font-variant-numeric: tabular-nums;
+    }
+    .counter .cell .sub { font-size: 0.72rem; color: var(--muted); margin-top: 0.2rem; }
+    .counter .ok { color: var(--accent); }
+    .counter .tight { color: var(--danger); }
+
+    .toolbar {
+      display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;
+      padding: 0.75rem clamp(1rem, 4vw, 3rem);
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 0.75rem;
+      color: var(--muted);
+      position: sticky; top: 0; z-index: 5;
+      background: color-mix(in srgb, var(--bg) 92%, transparent);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid color-mix(in srgb, var(--muted) 20%, transparent);
+    }
+    button {
+      border: 1px solid var(--accent);
+      background: transparent;
+      color: var(--fg);
+      padding: 0.4rem 0.75rem;
+      cursor: pointer;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    button:hover, button[aria-pressed="true"] {
+      background: var(--accent);
+      color: #000;
+    }
+    .count { margin-left: auto; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 1rem;
+      padding: 1rem clamp(1rem, 4vw, 3rem) 4rem;
+    }
+    article {
+      border: 1px solid color-mix(in srgb, var(--muted) 25%, transparent);
+      background: var(--bg-alt);
+      overflow: hidden;
+      position: relative;
+    }
+    .poster-wrap { position: relative; }
+    article img.poster { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: #111; }
+    .runtime-badge {
+      position: absolute; right: 0.45rem; bottom: 0.45rem;
+      background: rgba(0,0,0,0.78);
+      color: #fff;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.04em;
+      padding: 0.28rem 0.45rem;
+      border: 1px solid color-mix(in srgb, var(--accent) 50%, transparent);
+    }
+    article figcaption {
+      padding: 0.6rem 0.7rem 0.8rem;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 0.72rem;
+      line-height: 1.35;
+    }
+    article .year { color: var(--accent); letter-spacing: 0.05em; }
+    article .title { color: var(--fg); margin-top: 0.2rem; }
+    .seq {
+      display: inline-block; min-width: 1.4rem; margin-right: 0.25rem;
+      color: var(--accent-2, var(--accent)); font-weight: 700;
+    }
+    .watch { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.55rem; align-items: center; }
+    .watch a {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 36px; height: 36px;
+      text-decoration: none;
+      border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+      border-radius: 8px;
+      padding: 0;
+      background: color-mix(in srgb, var(--bg) 75%, #fff 8%);
+      transition: border-color 0.15s ease, transform 0.15s ease;
+    }
+    .watch a:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .watch a img { width: 22px; height: 22px; object-fit: contain; display: block; }
+    .watch .empty { color: var(--muted); font-size: 0.62rem; }
+    .trailer {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      margin-top: 0.4rem;
+      font-size: 0.65rem;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+      width: fit-content;
+    }
+    .trailer:hover { color: var(--fg); }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="wordmark" src="../assets/brand/doomsday-wordmark.svg" alt="Doomsday Watch Path" />
+    <p>Runtime per title · path hours · countdown to Doomsday</p>
+  </header>
+
+  <section class="counter" id="counter" aria-live="polite">
+    <div class="cell">
+      <div class="label">Hours until Doomsday</div>
+      <div class="value" id="c-until">—</div>
+      <div class="sub" id="c-until-sub">Release Dec 18, 2026</div>
+    </div>
+    <div class="cell">
+      <div class="label">Watch time if you start today</div>
+      <div class="value" id="c-watch">—</div>
+      <div class="sub" id="c-watch-sub">Selected path</div>
+    </div>
+    <div class="cell">
+      <div class="label">Time buffer</div>
+      <div class="value" id="c-buffer">—</div>
+      <div class="sub" id="c-buffer-sub">Hours left after finishing path</div>
+    </div>
+    <div class="cell">
+      <div class="label">Pace needed</div>
+      <div class="value" id="c-pace">—</div>
+      <div class="sub" id="c-pace-sub">Avg hours / day to finish before release</div>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <div class="toolbar-row">
+      <span>Path:</span>
+      <span id="tracks-path"></span>
+      <span style="margin-left:0.75rem">Region:</span>
+      <button type="button" id="reg-IN" aria-pressed="true">India</button>
+      <button type="button" id="reg-US" aria-pressed="false">US</button>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="toolbar-row" style="margin-top:0.45rem">
+      <span>Character:</span>
+      <span id="tracks-character"></span>
+    </div>
+  </div>
+  <section class="grid" id="grid"></section>
+
+  <script>
+    const RELEASE = new Date('2026-12-18T00:00:00Z');
+
+    function pad(n) { return String(n).padStart(2, '0'); }
+    function fmtHours(h) {
+      if (h < 0) return '0h';
+      const whole = Math.floor(h);
+      const mins = Math.round((h - whole) * 60);
+      if (whole >= 48) {
+        const d = Math.floor(whole / 24);
+        const rh = whole % 24;
+        return `${d}d ${rh}h`;
+      }
+      return mins ? `${whole}h ${pad(mins)}m` : `${whole}h`;
+    }
+    function fmtRuntime(mins) {
+      if (!mins && mins !== 0) return '—';
+      const h = Math.floor(mins / 60);
+      const m = mins % 60;
+      return h ? `${h}h ${pad(m)}m` : `${m}m`;
+    }
+
+    async function main() {
+      const [titlesJson, manifest, tracksJson, watchLinks, providersJson, pathStats] = await Promise.all([
+        fetch('../data/titles.json').then(r => r.json()),
+        fetch('../data/asset-manifest.json').then(r => r.json()),
+        fetch('../data/tracks.json').then(r => r.json()),
+        fetch('../data/watch-links.json').then(r => r.json()),
+        fetch('../data/providers.json').then(r => r.json()),
+        fetch('../data/path-stats.json').then(r => r.json()),
+      ]);
+      const byId = Object.fromEntries(titlesJson.titles.map(t => [t.id, t]));
+      const providers = Object.fromEntries(providersJson.providers.map(p => [p.id, p]));
+      let region = 'IN';
+      let trackId = tracksJson.defaultTrack || 'prep';
+      const pathEl = document.getElementById('tracks-path');
+      const charEl = document.getElementById('tracks-character');
+      const grid = document.getElementById('grid');
+      const countEl = document.getElementById('count');
+
+      const PATH_LABELS = {
+        complete: 'Complete',
+        prep: 'Prep',
+        crash: 'Crash',
+        xmen: 'X-Men',
+      };
+
+      function setActiveTrackButtons() {
+        document.querySelectorAll('#tracks-path button, #tracks-character button').forEach((btn) => {
+          btn.setAttribute('aria-pressed', btn.dataset.trackId === trackId ? 'true' : 'false');
+        });
+      }
+
+      function addTrackButton(parent, tr, label) {
+        const b = document.createElement('button');
+        b.textContent = label;
+        b.dataset.trackId = tr.id;
+        b.title = `${tr.name} — ${tr.runtime?.toDoomsday?.label || tr.runtime?.allTitles?.label || ''}`;
+        b.onclick = () => {
+          trackId = tr.id;
+          setActiveTrackButtons();
+          render();
+        };
+        parent.appendChild(b);
+      }
+
+      tracksJson.tracks.forEach((tr) => {
+        const kind = tr.kind || (tr.id === 'xmen' ? 'universe' : 'path');
+        if (kind === 'character') {
+          addTrackButton(charEl, tr, tr.name);
+        } else {
+          addTrackButton(pathEl, tr, PATH_LABELS[tr.id] || tr.name);
+        }
+      });
+      setActiveTrackButtons();
+
+      document.getElementById('reg-IN').onclick = () => {
+        region = 'IN';
+        document.getElementById('reg-IN').setAttribute('aria-pressed', 'true');
+        document.getElementById('reg-US').setAttribute('aria-pressed', 'false');
+        renderCardsOnly();
+      };
+      document.getElementById('reg-US').onclick = () => {
+        region = 'US';
+        document.getElementById('reg-IN').setAttribute('aria-pressed', 'false');
+        document.getElementById('reg-US').setAttribute('aria-pressed', 'true');
+        renderCardsOnly();
+      };
+
+      function pathMinutes(track) {
+        let mins = 0;
+        for (const id of track.titleIds) {
+          if (id === 'avengers-secret-wars') continue;
+          mins += byId[id]?.runtimeMinutes || 0;
+        }
+        return mins;
+      }
+
+      function updateCounter() {
+        const track = tracksJson.tracks.find(t => t.id === trackId);
+        const watchMins = pathMinutes(track);
+        const watchH = watchMins / 60;
+        const untilSec = Math.max(0, (RELEASE - new Date()) / 1000);
+        const untilH = untilSec / 3600;
+        const buffer = untilH - watchH;
+        const daysLeft = untilH / 24;
+        const pace = daysLeft > 0 ? watchH / daysLeft : watchH;
+
+        document.getElementById('c-until').textContent = fmtHours(untilH);
+        document.getElementById('c-until-sub').textContent =
+          `${Math.floor(untilSec/3600).toLocaleString()} hours · ${Math.floor(untilH/24)} days left`;
+
+        document.getElementById('c-watch').textContent = fmtRuntime(watchMins);
+        document.getElementById('c-watch-sub').textContent =
+          `${track.titleIds.filter(id => id !== 'avengers-secret-wars').length} titles · ${track.name}`;
+
+        const bufEl = document.getElementById('c-buffer');
+        bufEl.textContent = fmtHours(Math.abs(buffer));
+        bufEl.className = 'value ' + (buffer >= 0 ? 'ok' : 'tight');
+        document.getElementById('c-buffer-sub').textContent =
+          buffer >= 0 ? 'Spare hours if you finish the path' : 'Shortfall — need faster pace';
+
+        document.getElementById('c-pace').textContent = `${pace.toFixed(1)}h/day`;
+        document.getElementById('c-pace-sub').textContent =
+          buffer >= 0
+            ? `Or ~${(watchMins / (60 * 8)).toFixed(1)} days at 8h/day`
+            : 'Behind schedule relative to release';
+      }
+
+      function watchHtml(id) {
+        const entry = watchLinks.titles[id];
+        if (!entry) return '';
+        const offers = entry.regions[region] || [];
+        if (!offers.length) return '<div class="watch"><span class="empty">No listed offers</span></div>';
+
+        // One logo per provider — prefer stream over rent/buy/cinema
+        const typeRank = { flatrate: 0, ads: 1, free: 2, cinema: 3, rent: 4, buy: 5 };
+        const best = new Map();
+        for (const o of offers) {
+          const prev = best.get(o.providerId);
+          const rank = typeRank[o.type] ?? 9;
+          if (!prev || rank < prev.rank) {
+            best.set(o.providerId, { ...o, rank });
+          }
+        }
+        const unique = [...best.values()]
+          .sort((a, b) => a.rank - b.rank)
+          .slice(0, 5);
+
+        return `<div class="watch">${unique.map(o => {
+          const name = providers[o.providerId]?.displayName || o.providerName || o.providerId;
+          const logo = providers[o.providerId]?.logo;
+          const img = logo
+            ? `<img src="../${logo}" alt="" />`
+            : `<span style="font-size:0.55rem">${name.slice(0, 3)}</span>`;
+          return `<a href="${o.url}" target="_blank" rel="noopener" title="Watch on ${name}" aria-label="Watch on ${name}">${img}</a>`;
+        }).join('')}</div>`;
+      }
+
+      function renderCardsOnly() {
+        const track = tracksJson.tracks.find(t => t.id === trackId);
+        const ids = track.titleIds;
+        countEl.textContent = `${ids.length} titles · path ${fmtRuntime(pathMinutes(track))}`;
+        grid.innerHTML = '';
+        for (const id of ids) {
+          const t = byId[id];
+          if (!t) continue;
+          const item = manifest.items[t.id] || {};
+          const art = document.createElement('article');
+          art.dataset.era = t.era;
+          art.onmouseenter = () => { document.documentElement.dataset.era = t.era; };
+          art.innerHTML = `
+            <div class="poster-wrap">
+              <img class="poster" src="../${item.poster || t.poster || t.posterJpg || ''}" alt="${t.title}" loading="lazy" />
+              <div class="runtime-badge" title="Watch time">${fmtRuntime(t.runtimeMinutes)}</div>
+            </div>
+            <figcaption>
+              <div class="year"><span class="seq">#${t.sequenceOrder}</span>${t.releaseDate || t.year}</div>
+              <div class="title">${t.title}</div>
+              ${t.trailerUrl ? `<a class="trailer" href="${t.trailerUrl}" target="_blank" rel="noopener">Trailer ↗</a>` : ''}
+              ${watchHtml(t.id)}
+            </figcaption>`;
+          grid.appendChild(art);
+        }
+        if (ids[0] && byId[ids[0]]) document.documentElement.dataset.era = byId[ids[0]].era;
+      }
+
+      function render() {
+        updateCounter();
+        renderCardsOnly();
+      }
+
+      render();
+      setInterval(updateCounter, 60_000);
+    }
+    main();
+  </script>
+</body>
+</html>

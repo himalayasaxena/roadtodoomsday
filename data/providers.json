@@ -1,0 +1,508 @@
+{
+  "version": 1,
+  "defaultRegion": "IN",
+  "priority": [
+    "jiohotstar",
+    "disneyplus",
+    "netflix",
+    "amazonprimevideo",
+    "appletvplus",
+    "itunes",
+    "amazon",
+    "youtubetv",
+    "youtube",
+    "googleplay",
+    "vudu",
+    "vimoviesandtv"
+  ],
+  "providers": [
+    {
+      "id": "jiohotstar",
+      "name": "JioHotstar",
+      "shortName": "jhs",
+      "packageId": 2336,
+      "logo": "assets/providers/jiohotstar.png",
+      "logoSource": "https://images.justwatch.com/icon/326071631/s100/jiohotstar.png",
+      "homepageHint": "https://www.hotstar.com/in",
+      "displayName": "JioHotstar",
+      "aliases": [
+        "Hotstar",
+        "Disney+ Hotstar",
+        "Disney Plus Hotstar"
+      ]
+    },
+    {
+      "id": "disneyplus",
+      "name": "Disney Plus",
+      "shortName": "dnp",
+      "packageId": 337,
+      "logo": "assets/providers/disneyplus.png",
+      "logoSource": "https://images.justwatch.com/icon/313118777/s100/disneyplus.png",
+      "homepageHint": "https://www.disneyplus.com",
+      "displayName": "Disney+",
+      "aliases": [
+        "Disney Plus"
+      ]
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "shortName": "nfx",
+      "packageId": 8,
+      "logo": "assets/providers/netflix.png",
+      "logoSource": "https://images.justwatch.com/icon/207360008/s100/netflix.png",
+      "homepageHint": "https://www.netflix.com",
+      "displayName": "Netflix"
+    },
+    {
+      "id": "amazonprimevideo",
+      "name": "Amazon Prime Video",
+      "shortName": "prv",
+      "packageId": 119,
+      "logo": "assets/providers/amazonprimevideo.png",
+      "logoSource": "https://images.justwatch.com/icon/322992749/s100/amazonprimevideo.png",
+      "homepageHint": "https://www.primevideo.com",
+      "displayName": "Amazon Prime Video"
+    },
+    {
+      "id": "itunes",
+      "name": "Apple TV Store",
+      "shortName": "itu",
+      "packageId": 2,
+      "logo": "assets/providers/itunes.png",
+      "logoSource": "https://images.justwatch.com/icon/338253243/s100/itunes.png",
+      "homepageHint": "https://tv.apple.com",
+      "displayName": "Apple TV Store"
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon Video",
+      "shortName": "amz",
+      "packageId": 10,
+      "logo": "assets/providers/amazon.png",
+      "logoSource": "https://images.justwatch.com/icon/340823436/s100/amazon.png",
+      "homepageHint": "https://www.amazon.com/gp/video",
+      "displayName": "Amazon Video"
+    },
+    {
+      "id": "youtubetv",
+      "name": "YouTube TV",
+      "shortName": "ytt",
+      "packageId": 2528,
+      "logo": "assets/providers/youtubetv.png",
+      "logoSource": "https://images.justwatch.com/icon/334102416/s100/youtubetv.png",
+      "homepageHint": "https://tv.youtube.com",
+      "displayName": "YouTube TV"
+    },
+    {
+      "id": "vudu",
+      "name": "Fandango At Home",
+      "shortName": "vdu",
+      "packageId": 7,
+      "logo": "assets/providers/vudu.png",
+      "logoSource": "https://images.justwatch.com/icon/346744144/s100/vudu.png",
+      "homepageHint": null,
+      "displayName": "Fandango At Home"
+    },
+    {
+      "id": "amazondvdbr",
+      "name": "Amazon DVD / Blu-ray",
+      "shortName": "adb",
+      "packageId": 50,
+      "logo": "assets/providers/amazondvdbr.png",
+      "logoSource": "https://images.justwatch.com/icon/338364164/s100/amazondvdbr.png",
+      "homepageHint": null,
+      "displayName": "Amazon DVD / Blu-ray"
+    },
+    {
+      "id": "amazonprimevideowithads",
+      "name": "Amazon Prime Video with Ads",
+      "shortName": "pva",
+      "packageId": 2100,
+      "logo": "assets/providers/amazonprimevideowithads.png",
+      "logoSource": "https://images.justwatch.com/icon/322992746/s100/amazonprimevideowithads.png",
+      "homepageHint": null,
+      "displayName": "Amazon Prime Video with Ads"
+    },
+    {
+      "id": "atomtickets",
+      "name": "Atom Tickets",
+      "shortName": "ati",
+      "packageId": 179,
+      "logo": "assets/providers/atomtickets.png",
+      "logoSource": "https://images.justwatch.com/icon/27657105/s100/atomtickets.png",
+      "homepageHint": null,
+      "displayName": "Atom Tickets"
+    },
+    {
+      "id": "bbtheatres",
+      "name": "B&B Theatres",
+      "shortName": "bbt",
+      "packageId": 2120,
+      "logo": "assets/providers/bbtheatres.png",
+      "logoSource": "https://images.justwatch.com/icon/316101095/s100/bbtheatres.png",
+      "homepageHint": null,
+      "displayName": "B&B Theatres"
+    },
+    {
+      "id": "barnesandnoble",
+      "name": "Barnes & Noble",
+      "shortName": "bnb",
+      "packageId": 2542,
+      "logo": "assets/providers/barnesandnoble.png",
+      "logoSource": "https://images.justwatch.com/icon/335089140/s100/barnesandnoble.png",
+      "homepageHint": null,
+      "displayName": "Barnes & Noble"
+    },
+    {
+      "id": "cinemark",
+      "name": "Cinemark",
+      "shortName": "cmk",
+      "packageId": 1975,
+      "logo": "assets/providers/cinemark.png",
+      "logoSource": "https://images.justwatch.com/icon/319638383/s100/cinemark.png",
+      "homepageHint": null,
+      "displayName": "Cinemark"
+    },
+    {
+      "id": "amazoncinemax",
+      "name": "Cinemax Amazon Channel",
+      "shortName": "acn",
+      "packageId": 289,
+      "logo": "assets/providers/amazoncinemax.png",
+      "logoSource": "https://images.justwatch.com/icon/241732600/s100/amazoncinemax.png",
+      "displayName": "Cinemax Amazon Channel",
+      "homepageHint": null
+    },
+    {
+      "id": "appletvcinemax",
+      "name": "Cinemax Apple TV Channel",
+      "shortName": "cma",
+      "packageId": 2061,
+      "logo": "assets/providers/appletvcinemax.png",
+      "logoSource": "https://images.justwatch.com/icon/311512103/s100/appletvcinemax.png",
+      "displayName": "Cinemax Apple TV Channel",
+      "homepageHint": null
+    },
+    {
+      "id": "cinepoliscinema",
+      "name": "Cinepolis Cinemas",
+      "shortName": "cnu",
+      "packageId": 1978,
+      "logo": "assets/providers/cinepoliscinema.png",
+      "logoSource": "https://images.justwatch.com/icon/309432709/s100/cinepoliscinema.png",
+      "homepageHint": null,
+      "displayName": "Cinepolis Cinemas"
+    },
+    {
+      "id": "cinepolisindia",
+      "name": "Cin\u00e9polis India",
+      "shortName": "ine",
+      "packageId": 2705,
+      "logo": "assets/providers/cinepolisindia.png",
+      "logoSource": "https://images.justwatch.com/icon/344540082/s100/cinepolisindia.png",
+      "homepageHint": null,
+      "displayName": "Cin\u00e9polis India"
+    },
+    {
+      "id": "district",
+      "name": "District by Zomato",
+      "shortName": "diz",
+      "packageId": 2664,
+      "logo": "assets/providers/district.png",
+      "logoSource": "https://images.justwatch.com/icon/340733131/s100/district.png",
+      "homepageHint": null,
+      "displayName": "District by Zomato"
+    },
+    {
+      "id": "fxnow",
+      "name": "FXNow",
+      "shortName": "fxn",
+      "packageId": 123,
+      "logo": "assets/providers/fxnow.png",
+      "logoSource": "https://images.justwatch.com/icon/4259277/s100/fxnow.png",
+      "homepageHint": null,
+      "displayName": "FXNow"
+    },
+    {
+      "id": "fandango",
+      "name": "Fandango",
+      "shortName": "fad",
+      "packageId": 60,
+      "logo": "assets/providers/fandango.png",
+      "logoSource": "https://images.justwatch.com/icon/811323/s100/fandango.png",
+      "homepageHint": null,
+      "displayName": "Fandango"
+    },
+    {
+      "id": "flixfling",
+      "name": "FlixFling",
+      "shortName": "fxf",
+      "packageId": 331,
+      "logo": "assets/providers/flixfling.png",
+      "logoSource": "https://images.justwatch.com/icon/147271109/s100/flixfling.png",
+      "displayName": "FlixFling",
+      "homepageHint": null
+    },
+    {
+      "id": "max",
+      "name": "HBO Max",
+      "shortName": "mxx",
+      "packageId": 1899,
+      "logo": "assets/providers/max.png",
+      "logoSource": "https://images.justwatch.com/icon/332884837/s100/max.png",
+      "displayName": "HBO Max",
+      "homepageHint": null
+    },
+    {
+      "id": "amazonhbomax",
+      "name": "HBO Max Amazon Channel",
+      "shortName": "aho",
+      "packageId": 1825,
+      "logo": "assets/providers/amazonhbomax.png",
+      "logoSource": "https://images.justwatch.com/icon/343788557/s100/amazonhbomax.png",
+      "displayName": "HBO Max Amazon Channel",
+      "homepageHint": null
+    },
+    {
+      "id": "harkinstheaters",
+      "name": "Harkins Theatres",
+      "shortName": "hrk",
+      "packageId": 2118,
+      "logo": "assets/providers/harkinstheaters.png",
+      "logoSource": "https://images.justwatch.com/icon/315996404/s100/harkinstheaters.png",
+      "homepageHint": null,
+      "displayName": "Harkins Theatres"
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "shortName": "hlu",
+      "packageId": 15,
+      "logo": "assets/providers/hulu.png",
+      "logoSource": "https://images.justwatch.com/icon/116305230/s100/hulu.png",
+      "homepageHint": null,
+      "displayName": "Hulu"
+    },
+    {
+      "id": "lionsgateplay",
+      "name": "Lionsgate Play",
+      "shortName": "lgp",
+      "packageId": 561,
+      "logo": "assets/providers/lionsgateplay.png",
+      "logoSource": "https://images.justwatch.com/icon/313528599/s100/lionsgateplay.png",
+      "displayName": "Lionsgate Play",
+      "homepageHint": null
+    },
+    {
+      "id": "amazonlionsgateplay",
+      "name": "Lionsgate Play Amazon Channel",
+      "shortName": "lga",
+      "packageId": 2074,
+      "logo": "assets/providers/amazonlionsgateplay.png",
+      "logoSource": "https://images.justwatch.com/icon/311578230/s100/amazonlionsgateplay.png",
+      "displayName": "Lionsgate Play Amazon Channel",
+      "homepageHint": null
+    },
+    {
+      "id": "appletvlionsgateplay",
+      "name": "Lionsgate Play Apple TV Channel",
+      "shortName": "lpa",
+      "packageId": 2053,
+      "logo": "assets/providers/appletvlionsgateplay.png",
+      "logoSource": "https://images.justwatch.com/icon/311511965/s100/appletvlionsgateplay.png",
+      "displayName": "Lionsgate Play Apple TV Channel",
+      "homepageHint": null
+    },
+    {
+      "id": "marcustheatres",
+      "name": "Marcus Theatres",
+      "shortName": "mrc",
+      "packageId": 2123,
+      "logo": "assets/providers/marcustheatres.png",
+      "logoSource": "https://images.justwatch.com/icon/316299425/s100/marcustheatres.png",
+      "homepageHint": null,
+      "displayName": "Marcus Theatres"
+    },
+    {
+      "id": "netflixbasicwithads",
+      "name": "Netflix Standard with Ads",
+      "shortName": "nfa",
+      "packageId": 1796,
+      "logo": "assets/providers/netflixbasicwithads.png",
+      "logoSource": "https://images.justwatch.com/icon/330025803/s100/netflixbasicwithads.png",
+      "homepageHint": null,
+      "displayName": "Netflix Standard with Ads"
+    },
+    {
+      "id": "pbs",
+      "name": "PBS",
+      "shortName": "pbs",
+      "packageId": 209,
+      "logo": "assets/providers/pbs.png",
+      "logoSource": "https://images.justwatch.com/icon/78090545/s100/pbs.png",
+      "homepageHint": null,
+      "displayName": "PBS"
+    },
+    {
+      "id": "philo",
+      "name": "Philo",
+      "shortName": "phl",
+      "packageId": 2383,
+      "logo": "assets/providers/philo.png",
+      "logoSource": "https://images.justwatch.com/icon/327419079/s100/philo.png",
+      "homepageHint": null,
+      "displayName": "Philo"
+    },
+    {
+      "id": "sonyliv",
+      "name": "Sony Liv",
+      "shortName": "snl",
+      "packageId": 237,
+      "logo": "assets/providers/sonyliv.png",
+      "logoSource": "https://images.justwatch.com/icon/207468084/s100/sonyliv.png",
+      "homepageHint": null,
+      "displayName": "Sony Liv"
+    },
+    {
+      "id": "amazonsonypictures",
+      "name": "Sony Pictures Amazon Channel",
+      "shortName": "asa",
+      "packageId": 2180,
+      "logo": "assets/providers/amazonsonypictures.png",
+      "logoSource": "https://images.justwatch.com/icon/318290512/s100/amazonsonypictures.png",
+      "homepageHint": null,
+      "displayName": "Sony Pictures Amazon Channel"
+    },
+    {
+      "id": "spectrumondemand",
+      "name": "Spectrum On Demand",
+      "shortName": "sod",
+      "packageId": 486,
+      "logo": "assets/providers/spectrumondemand.png",
+      "logoSource": "https://images.justwatch.com/icon/305635208/s100/spectrumondemand.png",
+      "homepageHint": null,
+      "displayName": "Spectrum On Demand"
+    },
+    {
+      "id": "starz",
+      "name": "Starz",
+      "shortName": "stz",
+      "packageId": 43,
+      "logo": "assets/providers/starz.png",
+      "logoSource": "https://images.justwatch.com/icon/301254735/s100/starz.png",
+      "homepageHint": null,
+      "displayName": "Starz"
+    },
+    {
+      "id": "amazonstarz",
+      "name": "Starz Amazon Channel",
+      "shortName": "saz",
+      "packageId": 1794,
+      "logo": "assets/providers/amazonstarz.png",
+      "logoSource": "https://images.justwatch.com/icon/241732487/s100/amazonstarz.png",
+      "homepageHint": null,
+      "displayName": "Starz Amazon Channel"
+    },
+    {
+      "id": "appletvstarz",
+      "name": "Starz Apple TV Channel",
+      "shortName": "szt",
+      "packageId": 1855,
+      "logo": "assets/providers/appletvstarz.png",
+      "logoSource": "https://images.justwatch.com/icon/303391389/s100/appletvstarz.png",
+      "homepageHint": null,
+      "displayName": "Starz Apple TV Channel"
+    },
+    {
+      "id": "rokuchannelstarz",
+      "name": "Starz Roku Premium Channel",
+      "shortName": "sru",
+      "packageId": 634,
+      "logo": "assets/providers/rokuchannelstarz.png",
+      "logoSource": "https://images.justwatch.com/icon/252888467/s100/rokuchannelstarz.png",
+      "homepageHint": null,
+      "displayName": "Starz Roku Premium Channel"
+    },
+    {
+      "id": "tbs",
+      "name": "TBS",
+      "shortName": "tus",
+      "packageId": 506,
+      "logo": "assets/providers/tbs.png",
+      "logoSource": "https://images.justwatch.com/icon/209564793/s100/tbs.png",
+      "homepageHint": null,
+      "displayName": "TBS"
+    },
+    {
+      "id": "tnt",
+      "name": "TNT",
+      "shortName": "tnt",
+      "packageId": 363,
+      "logo": "assets/providers/tnt.png",
+      "logoSource": "https://images.justwatch.com/icon/164147684/s100/tnt.png",
+      "homepageHint": null,
+      "displayName": "TNT"
+    },
+    {
+      "id": "ticketnew",
+      "name": "Ticket New",
+      "shortName": "tic",
+      "packageId": 2662,
+      "logo": "assets/providers/ticketnew.png",
+      "logoSource": "https://images.justwatch.com/icon/340646787/s100/ticketnew.png",
+      "homepageHint": null,
+      "displayName": "Ticket New"
+    },
+    {
+      "id": "vimoviesandtv",
+      "name": "VI movies and tv",
+      "shortName": "vim",
+      "packageId": 614,
+      "logo": "assets/providers/vimoviesandtv.png",
+      "logoSource": "https://images.justwatch.com/icon/332271408/s100/vimoviesandtv.png",
+      "homepageHint": "https://moviesandtv.myvi.in",
+      "displayName": "VI movies and tv"
+    },
+    {
+      "id": "zavvi",
+      "name": "Zavvi",
+      "shortName": "zav",
+      "packageId": 2562,
+      "logo": "assets/providers/zavvi.png",
+      "logoSource": "https://images.justwatch.com/icon/336053590/s100/zavvi.png",
+      "homepageHint": null,
+      "displayName": "Zavvi"
+    },
+    {
+      "id": "zee5",
+      "name": "Zee5",
+      "shortName": "zee",
+      "packageId": 232,
+      "logo": "assets/providers/zee5.png",
+      "logoSource": "https://images.justwatch.com/icon/331880023/s100/zee5.png",
+      "homepageHint": null,
+      "displayName": "Zee5"
+    },
+    {
+      "id": "fubotv",
+      "name": "fuboTV",
+      "shortName": "fuv",
+      "packageId": 257,
+      "logo": "assets/providers/fubotv.png",
+      "logoSource": "https://images.justwatch.com/icon/316727345/s100/fubotv.png",
+      "homepageHint": null,
+      "displayName": "fuboTV"
+    },
+    {
+      "id": "trutv",
+      "name": "tru TV",
+      "shortName": "tru",
+      "packageId": 507,
+      "logo": "assets/providers/trutv.png",
+      "logoSource": "https://images.justwatch.com/icon/209564918/s100/trutv.png",
+      "homepageHint": null,
+      "displayName": "tru TV"
+    }
+  ]
+}

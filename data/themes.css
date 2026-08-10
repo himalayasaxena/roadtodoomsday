@@ -1,0 +1,132 @@
+:root {
+  /* Default = Phase 6 / Doomsday */
+  --bg: #050806;
+  --bg-alt: #0d1610;
+  --fg: #f0f7f2;
+  --muted: #8fa898;
+  --accent: #16a34a;
+  --accent2: #c9a227;
+  --danger: #b91c1c;
+  --glow: rgba(22, 163, 74, 0.45);
+  --grain: 0.16;
+}
+
+[data-era="fox-xmen"] {
+  --bg: #0a0a0a;
+  --bg-alt: #141414;
+  --fg: #f5f5f5;
+  --muted: #a3a3a3;
+  --accent: #f5c518;
+  --accent-2: #1d4ed8;
+  --danger: #dc2626;
+  --glow: rgba(245, 197, 24, 0.35);
+  --grain: 0.12;
+}
+
+[data-era="phase-1"] {
+  --bg: #0c0c0e;
+  --bg-alt: #1a1210;
+  --fg: #f8f4ef;
+  --muted: #b5a99a;
+  --accent: #c41e3a;
+  --accent-2: #d4a017;
+  --danger: #ff3b30;
+  --glow: rgba(212, 160, 23, 0.4);
+  --grain: 0.08;
+}
+
+[data-era="phase-2"] {
+  --bg: #0b1018;
+  --bg-alt: #121a24;
+  --fg: #e8eef6;
+  --muted: #8b9bb0;
+  --accent: #3b82f6;
+  --accent-2: #94a3b8;
+  --danger: #ef4444;
+  --glow: rgba(59, 130, 246, 0.35);
+  --grain: 0.1;
+}
+
+[data-era="phase-3"] {
+  --bg: #09070f;
+  --bg-alt: #160f1f;
+  --fg: #f3eefc;
+  --muted: #9b8fb0;
+  --accent: #7c3aed;
+  --accent-2: #f59e0b;
+  --danger: #e11d48;
+  --glow: rgba(124, 58, 237, 0.45);
+  --grain: 0.1;
+}
+
+[data-era="phase-4"] {
+  --bg: #07060d;
+  --bg-alt: #12101c;
+  --fg: #f5f0ff;
+  --muted: #a89cc4;
+  --accent: #22d3ee;
+  --accent-2: #e879f9;
+  --danger: #fb7185;
+  --glow: rgba(34, 211, 238, 0.4);
+  --grain: 0.14;
+}
+
+[data-era="phase-5"] {
+  --bg: #0a0c0b;
+  --bg-alt: #141816;
+  --fg: #eef2ef;
+  --muted: #8f9a92;
+  --accent: #4ade80;
+  --accent-2: #64748b;
+  --danger: #f97316;
+  --glow: rgba(74, 222, 128, 0.3);
+  --grain: 0.11;
+}
+
+[data-era="phase-6"] {
+  --bg: #050806;
+  --bg-alt: #0d1610;
+  --fg: #f0f7f2;
+  --muted: #8fa898;
+  --accent: #16a34a;
+  --accent-2: #c9a227;
+  --danger: #b91c1c;
+  --glow: rgba(22, 163, 74, 0.45);
+  --grain: 0.16;
+}
+
+[data-era="sony-spiderman"] {
+  --bg: #0a0606;
+  --bg-alt: #1a0a0a;
+  --fg: #fee2e2;
+  --muted: #a8a29e;
+  --accent: #dc2626;
+  --accent-2: #2563eb;
+  --danger: #fbbf24;
+  --glow: rgba(220, 38, 38, 0.4);
+  --grain: 0.1;
+}
+
+[data-era="fox-ff"] {
+  --bg: #070b14;
+  --bg-alt: #0f172a;
+  --fg: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #3b82f6;
+  --accent-2: #f8fafc;
+  --danger: #f97316;
+  --glow: rgba(59, 130, 246, 0.35);
+  --grain: 0.1;
+}
+
+[data-era="netflix-marvel"] {
+  --bg: #0a0505;
+  --bg-alt: #1c0a0a;
+  --fg: #fecaca;
+  --muted: #a8a29e;
+  --accent: #991b1b;
+  --accent-2: #e5e5e5;
+  --danger: #ef4444;
+  --glow: rgba(153, 27, 27, 0.45);
+  --grain: 0.14;
+}

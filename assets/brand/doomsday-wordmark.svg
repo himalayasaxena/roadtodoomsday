@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" fill="none">
+  <rect width="800" height="200" fill="#050806"/>
+  <path d="M40 160 L120 40 L200 160 Z" stroke="#16a34a" stroke-width="6" fill="rgba(22,163,74,0.12)"/>
+  <circle cx="120" cy="100" r="18" fill="#c9a227"/>
+  <path d="M220 50 H760" stroke="#16a34a" stroke-width="2" opacity="0.5"/>
+  <text x="220" y="105" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="#f0f7f2" letter-spacing="6">DOOMSDAY</text>
+  <text x="220" y="145" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8fa898" letter-spacing="8">WATCH PATH</text>
+  <path d="M40 170 H760" stroke="#c9a227" stroke-width="1" opacity="0.4"/>
+</svg>

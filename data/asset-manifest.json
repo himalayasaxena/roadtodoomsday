@@ -1,0 +1,1365 @@
+{
+  "generatedAt": "2026-08-10T18:21:52Z",
+  "source": "tmdb",
+  "items": {
+    "x-men-2000": {
+      "id": "x-men-2000",
+      "title": "X-Men",
+      "year": 2000,
+      "era": "fox-xmen",
+      "accent": "#f5c518",
+      "tmdb": {
+        "media": "movie",
+        "id": 36657
+      },
+      "poster": "assets/posters/x-men-2000.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/bRDAc4GogyS9ci3ow7UnInOcriN.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3QUVzbcNyfGe3ocWkYAT8emK8Co.jpg"
+      },
+      "backdrop": "assets/backdrops/x-men-2000.jpg"
+    },
+    "spider-man-2002": {
+      "id": "spider-man-2002",
+      "title": "Spider-Man",
+      "year": 2002,
+      "era": "sony-spiderman",
+      "accent": "#dc2626",
+      "tmdb": {
+        "media": "movie",
+        "id": 557
+      },
+      "poster": "assets/posters/spider-man-2002.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/nXdAh5vUwERL4WGVMaee8RoDEAS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg"
+      },
+      "backdrop": "assets/backdrops/spider-man-2002.jpg"
+    },
+    "x2": {
+      "id": "x2",
+      "title": "X2: X-Men United",
+      "year": 2003,
+      "era": "fox-xmen",
+      "accent": "#1d4ed8",
+      "tmdb": {
+        "media": "movie",
+        "id": 36658
+      },
+      "poster": "assets/posters/x2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/bst4alFUXCxISwdRUKSMhhkrX1M.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7TYITrR804tLITNur3b8VLCK6tw.jpg"
+      },
+      "backdrop": "assets/backdrops/x2.jpg"
+    },
+    "spider-man-2": {
+      "id": "spider-man-2",
+      "title": "Spider-Man 2",
+      "year": 2004,
+      "era": "sony-spiderman",
+      "accent": "#dc2626",
+      "tmdb": {
+        "media": "movie",
+        "id": 558
+      },
+      "poster": "assets/posters/spider-man-2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/aGuvNAaaZuWXYQQ6N2v7DeuP6mB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6al048Lat3eLVQOuKtc9h6Tu94d.jpg"
+      },
+      "backdrop": "assets/backdrops/spider-man-2.jpg"
+    },
+    "fantastic-four-2005": {
+      "id": "fantastic-four-2005",
+      "title": "Fantastic Four",
+      "year": 2005,
+      "era": "fox-ff",
+      "accent": "#2563eb",
+      "tmdb": {
+        "media": "movie",
+        "id": 9738
+      },
+      "poster": "assets/posters/fantastic-four-2005.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/4YMcYEFS8sFuW3soP1HVmgR3cSm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/2cDXXLirYsoP6rk9B8yrvNHbbFy.jpg"
+      },
+      "backdrop": "assets/backdrops/fantastic-four-2005.jpg"
+    },
+    "x-men-the-last-stand": {
+      "id": "x-men-the-last-stand",
+      "title": "X-Men: The Last Stand",
+      "year": 2006,
+      "era": "fox-xmen",
+      "accent": "#dc2626",
+      "tmdb": {
+        "media": "movie",
+        "id": 36668
+      },
+      "poster": "assets/posters/x-men-the-last-stand.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/a2xicU8DpKtRizOHjQLC1JyCSRS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sBl1n4Oi2wX81EtXIb8NsPqJf3W.jpg"
+      },
+      "backdrop": "assets/backdrops/x-men-the-last-stand.jpg"
+    },
+    "spider-man-3": {
+      "id": "spider-man-3",
+      "title": "Spider-Man 3",
+      "year": 2007,
+      "era": "sony-spiderman",
+      "accent": "#111827",
+      "tmdb": {
+        "media": "movie",
+        "id": 559
+      },
+      "poster": "assets/posters/spider-man-3.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/sJMTTGjtjvrMZ7G0oP9D13wNUum.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xslNxb3T3HW8dt70ybbR5lrBJRj.jpg"
+      },
+      "backdrop": "assets/backdrops/spider-man-3.jpg"
+    },
+    "fantastic-four-silver-surfer": {
+      "id": "fantastic-four-silver-surfer",
+      "title": "Fantastic Four: Rise of the Silver Surfer",
+      "year": 2007,
+      "era": "fox-ff",
+      "accent": "#94a3b8",
+      "tmdb": {
+        "media": "movie",
+        "id": 1979
+      },
+      "poster": "assets/posters/fantastic-four-silver-surfer.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/9wRfzTcMyyzkQxVDqBHv8RwuZOv.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/o2wYH40zW0JIYiYUTu6L4gsNy7E.jpg"
+      },
+      "backdrop": "assets/backdrops/fantastic-four-silver-surfer.jpg"
+    },
+    "iron-man": {
+      "id": "iron-man",
+      "title": "Iron Man",
+      "year": 2008,
+      "era": "phase-1",
+      "accent": "#c41e3a",
+      "tmdb": {
+        "media": "movie",
+        "id": 1726
+      },
+      "poster": "assets/posters/iron-man.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cKvDv2LpwVEqbdXWoQl4XgGN6le.jpg"
+      },
+      "backdrop": "assets/backdrops/iron-man.jpg"
+    },
+    "incredible-hulk": {
+      "id": "incredible-hulk",
+      "title": "The Incredible Hulk",
+      "year": 2008,
+      "era": "phase-1",
+      "accent": "#3f7f3f",
+      "tmdb": {
+        "media": "movie",
+        "id": 1724
+      },
+      "poster": "assets/posters/incredible-hulk.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/gKzYx79y0AQTL4UAk1cBQJ3nvrm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jPu8yiadqgzwFPGKJmGo637ASVP.jpg"
+      },
+      "backdrop": "assets/backdrops/incredible-hulk.jpg"
+    },
+    "x-men-origins-wolverine": {
+      "id": "x-men-origins-wolverine",
+      "title": "X-Men Origins: Wolverine",
+      "year": 2009,
+      "era": "fox-xmen",
+      "accent": "#f5c518",
+      "tmdb": {
+        "media": "movie",
+        "id": 2080
+      },
+      "poster": "assets/posters/x-men-origins-wolverine.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/yj8LbTju1p7CUJg7US2unSBk33s.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/p4GzAzjlL7lXIVGvayg7zvzGTSi.jpg"
+      },
+      "backdrop": "assets/backdrops/x-men-origins-wolverine.jpg"
+    },
+    "iron-man-2": {
+      "id": "iron-man-2",
+      "title": "Iron Man 2",
+      "year": 2010,
+      "era": "phase-1",
+      "accent": "#d4a017",
+      "tmdb": {
+        "media": "movie",
+        "id": 10138
+      },
+      "poster": "assets/posters/iron-man-2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg"
+      },
+      "backdrop": "assets/backdrops/iron-man-2.jpg"
+    },
+    "thor": {
+      "id": "thor",
+      "title": "Thor",
+      "year": 2011,
+      "era": "phase-1",
+      "accent": "#3b82f6",
+      "tmdb": {
+        "media": "movie",
+        "id": 10195
+      },
+      "poster": "assets/posters/thor.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cDJ61O1STtbWNBwefuqVrRe3d7l.jpg"
+      },
+      "backdrop": "assets/backdrops/thor.jpg"
+    },
+    "x-men-first-class": {
+      "id": "x-men-first-class",
+      "title": "X-Men: First Class",
+      "year": 2011,
+      "era": "fox-xmen",
+      "accent": "#f5c518",
+      "tmdb": {
+        "media": "movie",
+        "id": 49538
+      },
+      "poster": "assets/posters/x-men-first-class.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/hNEokmUke0dazoBhttFN0o3L7Xv.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yhp5Pt4GugkCs5mz63qWz5khHXe.jpg"
+      },
+      "backdrop": "assets/backdrops/x-men-first-class.jpg"
+    },
+    "captain-america-the-first-avenger": {
+      "id": "captain-america-the-first-avenger",
+      "title": "Captain America: The First Avenger",
+      "year": 2011,
+      "era": "phase-1",
+      "accent": "#1d4ed8",
+      "tmdb": {
+        "media": "movie",
+        "id": 1771
+      },
+      "poster": "assets/posters/captain-america-the-first-avenger.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yFuKvT4Vm3sKHdFY4eG6I4ldAnn.jpg"
+      },
+      "backdrop": "assets/backdrops/captain-america-the-first-avenger.jpg"
+    },
+    "the-avengers": {
+      "id": "the-avengers",
+      "title": "The Avengers",
+      "year": 2012,
+      "era": "phase-1",
+      "accent": "#c41e3a",
+      "tmdb": {
+        "media": "movie",
+        "id": 24428
+      },
+      "poster": "assets/posters/the-avengers.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg"
+      },
+      "backdrop": "assets/backdrops/the-avengers.jpg"
+    },
+    "amazing-spider-man": {
+      "id": "amazing-spider-man",
+      "title": "The Amazing Spider-Man",
+      "year": 2012,
+      "era": "sony-spiderman",
+      "accent": "#dc2626",
+      "tmdb": {
+        "media": "movie",
+        "id": 1930
+      },
+      "poster": "assets/posters/amazing-spider-man.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/HVcza6tJtWFrLriuh3Ano4Vt46.jpg"
+      },
+      "backdrop": "assets/backdrops/amazing-spider-man.jpg"
+    },
+    "iron-man-3": {
+      "id": "iron-man-3",
+      "title": "Iron Man 3",
+      "year": 2013,
+      "era": "phase-2",
+      "accent": "#dc2626",
+      "tmdb": {
+        "media": "movie",
+        "id": 68721
+      },
+      "poster": "assets/posters/iron-man-3.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iVped1djsF0tvGkvnHbzsE3ZPTF.jpg"
+      },
+      "backdrop": "assets/backdrops/iron-man-3.jpg"
+    },
+    "the-wolverine": {
+      "id": "the-wolverine",
+      "title": "The Wolverine",
+      "year": 2013,
+      "era": "fox-xmen",
+      "accent": "#a3a3a3",
+      "tmdb": {
+        "media": "movie",
+        "id": 76170
+      },
+      "poster": "assets/posters/the-wolverine.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/t2wVAcoRlKvEIVSbiYDb8d0QqqS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bEAQfLTykGg232kJogBlxRYaRqU.jpg"
+      },
+      "backdrop": "assets/backdrops/the-wolverine.jpg"
+    },
+    "thor-the-dark-world": {
+      "id": "thor-the-dark-world",
+      "title": "Thor: The Dark World",
+      "year": 2013,
+      "era": "phase-2",
+      "accent": "#6366f1",
+      "tmdb": {
+        "media": "movie",
+        "id": 76338
+      },
+      "poster": "assets/posters/thor-the-dark-world.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/wp6OxE4poJ4G7c0U2ZIXasTSMR7.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5QEOy0QEpad9QsXeMxuGHPXMale.jpg"
+      },
+      "backdrop": "assets/backdrops/thor-the-dark-world.jpg"
+    },
+    "captain-america-the-winter-soldier": {
+      "id": "captain-america-the-winter-soldier",
+      "title": "Captain America: The Winter Soldier",
+      "year": 2014,
+      "era": "phase-2",
+      "accent": "#64748b",
+      "tmdb": {
+        "media": "movie",
+        "id": 100402
+      },
+      "poster": "assets/posters/captain-america-the-winter-soldier.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1RWLMyC9KcFfcaoViMiJGSSZzzr.jpg"
+      },
+      "backdrop": "assets/backdrops/captain-america-the-winter-soldier.jpg"
+    },
+    "amazing-spider-man-2": {
+      "id": "amazing-spider-man-2",
+      "title": "The Amazing Spider-Man 2",
+      "year": 2014,
+      "era": "sony-spiderman",
+      "accent": "#2563eb",
+      "tmdb": {
+        "media": "movie",
+        "id": 102382
+      },
+      "poster": "assets/posters/amazing-spider-man-2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/dGjoPttcbKR5VWg1jQuNFB247KL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg"
+      },
+      "backdrop": "assets/backdrops/amazing-spider-man-2.jpg"
+    },
+    "x-men-days-of-future-past": {
+      "id": "x-men-days-of-future-past",
+      "title": "X-Men: Days of Future Past",
+      "year": 2014,
+      "era": "fox-xmen",
+      "accent": "#f5c518",
+      "tmdb": {
+        "media": "movie",
+        "id": 127585
+      },
+      "poster": "assets/posters/x-men-days-of-future-past.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/tYfijzolzgoMOtegh1Y7j2Enorg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3czpqXzFy5UcNuD1AubecRLWkwD.jpg"
+      },
+      "backdrop": "assets/backdrops/x-men-days-of-future-past.jpg"
+    },
+    "guardians-of-the-galaxy": {
+      "id": "guardians-of-the-galaxy",
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "era": "phase-2",
+      "accent": "#f59e0b",
+      "tmdb": {
+        "media": "movie",
+        "id": 118340
+      },
+      "poster": "assets/posters/guardians-of-the-galaxy.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg"
+      },
+      "backdrop": "assets/backdrops/guardians-of-the-galaxy.jpg"
+    },
+    "daredevil-s1": {
+      "id": "daredevil-s1",
+      "title": "Daredevil (Season 1)",
+      "year": 2015,
+      "era": "netflix-marvel",
+      "accent": "#991b1b",
+      "tmdb": {
+        "media": "tv",
+        "id": 61889
+      },
+      "poster": "assets/posters/daredevil-s1.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+      },
+      "backdrop": "assets/backdrops/daredevil-s1.jpg"
+    },
+    "avengers-age-of-ultron": {
+      "id": "avengers-age-of-ultron",
+      "title": "Avengers: Age of Ultron",
+      "year": 2015,
+      "era": "phase-2",
+      "accent": "#a855f7",
+      "tmdb": {
+        "media": "movie",
+        "id": 99861
+      },
+      "poster": "assets/posters/avengers-age-of-ultron.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kIBK5SKwgqIIuRKhhWrJn3XkbPq.jpg"
+      },
+      "backdrop": "assets/backdrops/avengers-age-of-ultron.jpg"
+    },
+    "ant-man": {
+      "id": "ant-man",
+      "title": "Ant-Man",
+      "year": 2015,
+      "era": "phase-2",
+      "accent": "#ef4444",
+      "tmdb": {
+        "media": "movie",
+        "id": 102899
+      },
+      "poster": "assets/posters/ant-man.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg"
+      },
+      "backdrop": "assets/backdrops/ant-man.jpg"
+    },
+    "fantastic-four-2015": {
+      "id": "fantastic-four-2015",
+      "title": "Fantastic Four",
+      "year": 2015,
+      "era": "fox-ff",
+      "accent": "#1e3a8a",
+      "tmdb": {
+        "media": "movie",
+        "id": 166424
+      },
+      "poster": "assets/posters/fantastic-four-2015.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/cDroz5qSlP8xZ6tOpeYoPkBvKyL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/or5kDR8Ve3TtuPSdEf1X5NdQHyz.jpg"
+      },
+      "backdrop": "assets/backdrops/fantastic-four-2015.jpg"
+    },
+    "deadpool": {
+      "id": "deadpool",
+      "title": "Deadpool",
+      "year": 2016,
+      "era": "fox-xmen",
+      "accent": "#ef4444",
+      "tmdb": {
+        "media": "movie",
+        "id": 293660
+      },
+      "poster": "assets/posters/deadpool.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/en971MEXui9diirXlogOrPKmsEn.jpg"
+      },
+      "backdrop": "assets/backdrops/deadpool.jpg"
+    },
+    "daredevil-s2": {
+      "id": "daredevil-s2",
+      "title": "Daredevil (Season 2)",
+      "year": 2016,
+      "era": "netflix-marvel",
+      "accent": "#991b1b",
+      "tmdb": {
+        "media": "tv",
+        "id": 61889
+      },
+      "poster": "assets/posters/daredevil-s2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+      },
+      "backdrop": "assets/backdrops/daredevil-s2.jpg"
+    },
+    "captain-america-civil-war": {
+      "id": "captain-america-civil-war",
+      "title": "Captain America: Civil War",
+      "year": 2016,
+      "era": "phase-3",
+      "accent": "#2563eb",
+      "tmdb": {
+        "media": "movie",
+        "id": 271110
+      },
+      "poster": "assets/posters/captain-america-civil-war.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg"
+      },
+      "backdrop": "assets/backdrops/captain-america-civil-war.jpg"
+    },
+    "x-men-apocalypse": {
+      "id": "x-men-apocalypse",
+      "title": "X-Men: Apocalypse",
+      "year": 2016,
+      "era": "fox-xmen",
+      "accent": "#7c3aed",
+      "tmdb": {
+        "media": "movie",
+        "id": 246655
+      },
+      "poster": "assets/posters/x-men-apocalypse.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/ikA8UhYdTGpqbatFa93nIf6noSr.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sTQNRqLbfCXolrb5CizAW1dj528.jpg"
+      },
+      "backdrop": "assets/backdrops/x-men-apocalypse.jpg"
+    },
+    "doctor-strange": {
+      "id": "doctor-strange",
+      "title": "Doctor Strange",
+      "year": 2016,
+      "era": "phase-3",
+      "accent": "#f59e0b",
+      "tmdb": {
+        "media": "movie",
+        "id": 284052
+      },
+      "poster": "assets/posters/doctor-strange.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kkoiH8ZWxJ9WSAjOadGtuHUQxbm.jpg"
+      },
+      "backdrop": "assets/backdrops/doctor-strange.jpg"
+    },
+    "logan": {
+      "id": "logan",
+      "title": "Logan",
+      "year": 2017,
+      "era": "fox-xmen",
+      "accent": "#a3a3a3",
+      "tmdb": {
+        "media": "movie",
+        "id": 263115
+      },
+      "poster": "assets/posters/logan.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4DZxWNSAyksN6N3JkvpJ53Yq6zU.jpg"
+      },
+      "backdrop": "assets/backdrops/logan.jpg"
+    },
+    "guardians-of-the-galaxy-vol-2": {
+      "id": "guardians-of-the-galaxy-vol-2",
+      "title": "Guardians of the Galaxy Vol. 2",
+      "year": 2017,
+      "era": "phase-3",
+      "accent": "#ec4899",
+      "tmdb": {
+        "media": "movie",
+        "id": 283995
+      },
+      "poster": "assets/posters/guardians-of-the-galaxy-vol-2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bW93ycPSSi3Hxx1NvlMX5qm2mQu.jpg"
+      },
+      "backdrop": "assets/backdrops/guardians-of-the-galaxy-vol-2.jpg"
+    },
+    "spider-man-homecoming": {
+      "id": "spider-man-homecoming",
+      "title": "Spider-Man: Homecoming",
+      "year": 2017,
+      "era": "phase-3",
+      "accent": "#dc2626",
+      "tmdb": {
+        "media": "movie",
+        "id": 315635
+      },
+      "poster": "assets/posters/spider-man-homecoming.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg"
+      },
+      "backdrop": "assets/backdrops/spider-man-homecoming.jpg"
+    },
+    "defenders": {
+      "id": "defenders",
+      "title": "The Defenders",
+      "year": 2017,
+      "era": "netflix-marvel",
+      "accent": "#b91c1c",
+      "tmdb": {
+        "media": "tv",
+        "id": 62285
+      },
+      "poster": "assets/posters/defenders.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/49XzINhH4LFsgz7cx6TOPcHUJUL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ycAWXhAhyaE7g3JBAaierK4LgNg.jpg"
+      },
+      "backdrop": "assets/backdrops/defenders.jpg"
+    },
+    "thor-ragnarok": {
+      "id": "thor-ragnarok",
+      "title": "Thor: Ragnarok",
+      "year": 2017,
+      "era": "phase-3",
+      "accent": "#22c55e",
+      "tmdb": {
+        "media": "movie",
+        "id": 284053
+      },
+      "poster": "assets/posters/thor-ragnarok.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vLmHH8jAy8Jq8uBsLucd3592WGh.jpg"
+      },
+      "backdrop": "assets/backdrops/thor-ragnarok.jpg"
+    },
+    "punisher-s1": {
+      "id": "punisher-s1",
+      "title": "The Punisher (Season 1)",
+      "year": 2017,
+      "era": "netflix-marvel",
+      "accent": "#525252",
+      "tmdb": {
+        "media": "tv",
+        "id": 67178
+      },
+      "poster": "assets/posters/punisher-s1.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jBGjbSDRxOEudW9rmQbWDzJUKq9.jpg"
+      },
+      "backdrop": "assets/backdrops/punisher-s1.jpg"
+    },
+    "black-panther": {
+      "id": "black-panther",
+      "title": "Black Panther",
+      "year": 2018,
+      "era": "phase-3",
+      "accent": "#a16207",
+      "tmdb": {
+        "media": "movie",
+        "id": 284054
+      },
+      "poster": "assets/posters/black-panther.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg"
+      },
+      "backdrop": "assets/backdrops/black-panther.jpg"
+    },
+    "avengers-infinity-war": {
+      "id": "avengers-infinity-war",
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "era": "phase-3",
+      "accent": "#7c3aed",
+      "tmdb": {
+        "media": "movie",
+        "id": 299536
+      },
+      "poster": "assets/posters/avengers-infinity-war.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg"
+      },
+      "backdrop": "assets/backdrops/avengers-infinity-war.jpg"
+    },
+    "deadpool-2": {
+      "id": "deadpool-2",
+      "title": "Deadpool 2",
+      "year": 2018,
+      "era": "fox-xmen",
+      "accent": "#ef4444",
+      "tmdb": {
+        "media": "movie",
+        "id": 383498
+      },
+      "poster": "assets/posters/deadpool-2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg"
+      },
+      "backdrop": "assets/backdrops/deadpool-2.jpg"
+    },
+    "ant-man-and-the-wasp": {
+      "id": "ant-man-and-the-wasp",
+      "title": "Ant-Man and the Wasp",
+      "year": 2018,
+      "era": "phase-3",
+      "accent": "#f97316",
+      "tmdb": {
+        "media": "movie",
+        "id": 363088
+      },
+      "poster": "assets/posters/ant-man-and-the-wasp.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/cFQEO687n1K6umXbInzocxcnAQz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iYdgEUE2W2aJkgqfSjf1x3gFfuV.jpg"
+      },
+      "backdrop": "assets/backdrops/ant-man-and-the-wasp.jpg"
+    },
+    "daredevil-s3": {
+      "id": "daredevil-s3",
+      "title": "Daredevil (Season 3)",
+      "year": 2018,
+      "era": "netflix-marvel",
+      "accent": "#991b1b",
+      "tmdb": {
+        "media": "tv",
+        "id": 61889
+      },
+      "poster": "assets/posters/daredevil-s3.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+      },
+      "backdrop": "assets/backdrops/daredevil-s3.jpg"
+    },
+    "punisher-s2": {
+      "id": "punisher-s2",
+      "title": "The Punisher (Season 2)",
+      "year": 2019,
+      "era": "netflix-marvel",
+      "accent": "#525252",
+      "tmdb": {
+        "media": "tv",
+        "id": 67178
+      },
+      "poster": "assets/posters/punisher-s2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jBGjbSDRxOEudW9rmQbWDzJUKq9.jpg"
+      },
+      "backdrop": "assets/backdrops/punisher-s2.jpg"
+    },
+    "captain-marvel": {
+      "id": "captain-marvel",
+      "title": "Captain Marvel",
+      "year": 2019,
+      "era": "phase-3",
+      "accent": "#fbbf24",
+      "tmdb": {
+        "media": "movie",
+        "id": 299537
+      },
+      "poster": "assets/posters/captain-marvel.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qAzYK4YPSWDc7aa4R43LcwRIAyb.jpg"
+      },
+      "backdrop": "assets/backdrops/captain-marvel.jpg"
+    },
+    "avengers-endgame": {
+      "id": "avengers-endgame",
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "era": "phase-3",
+      "accent": "#6366f1",
+      "tmdb": {
+        "media": "movie",
+        "id": 299534
+      },
+      "poster": "assets/posters/avengers-endgame.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg"
+      },
+      "backdrop": "assets/backdrops/avengers-endgame.jpg"
+    },
+    "dark-phoenix": {
+      "id": "dark-phoenix",
+      "title": "Dark Phoenix",
+      "year": 2019,
+      "era": "fox-xmen",
+      "accent": "#e11d48",
+      "tmdb": {
+        "media": "movie",
+        "id": 320288
+      },
+      "poster": "assets/posters/dark-phoenix.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/cCTJPelKGLhALq3r51A9uMonxKj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cjRUhKyt2Jo3V1KNzc5tpPNfccG.jpg"
+      },
+      "backdrop": "assets/backdrops/dark-phoenix.jpg"
+    },
+    "spider-man-far-from-home": {
+      "id": "spider-man-far-from-home",
+      "title": "Spider-Man: Far From Home",
+      "year": 2019,
+      "era": "phase-3",
+      "accent": "#0ea5e9",
+      "tmdb": {
+        "media": "movie",
+        "id": 429617
+      },
+      "poster": "assets/posters/spider-man-far-from-home.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg"
+      },
+      "backdrop": "assets/backdrops/spider-man-far-from-home.jpg"
+    },
+    "new-mutants": {
+      "id": "new-mutants",
+      "title": "The New Mutants",
+      "year": 2020,
+      "era": "fox-xmen",
+      "accent": "#a855f7",
+      "tmdb": {
+        "media": "movie",
+        "id": 340102
+      },
+      "poster": "assets/posters/new-mutants.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/xiDGcXJTvu1lazFRYip6g1eLt9c.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1MoeNacOltBWojkStjhT3svBTOK.jpg"
+      },
+      "backdrop": "assets/backdrops/new-mutants.jpg"
+    },
+    "wandavision": {
+      "id": "wandavision",
+      "title": "WandaVision",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#e11d48",
+      "tmdb": {
+        "media": "tv",
+        "id": 85271
+      },
+      "poster": "assets/posters/wandavision.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lOr9NKxh4vMweufMOUDJjJhCRHW.jpg"
+      },
+      "backdrop": "assets/backdrops/wandavision.jpg"
+    },
+    "falcon-and-winter-soldier": {
+      "id": "falcon-and-winter-soldier",
+      "title": "The Falcon and the Winter Soldier",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#dc2626",
+      "tmdb": {
+        "media": "tv",
+        "id": 88396
+      },
+      "poster": "assets/posters/falcon-and-winter-soldier.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/6kbAMLteGO8yyewYau6bJ683sw7.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/aTjbqMONy77fHJrIYu14g1F0d5h.jpg"
+      },
+      "backdrop": "assets/backdrops/falcon-and-winter-soldier.jpg"
+    },
+    "loki-s1": {
+      "id": "loki-s1",
+      "title": "Loki (Season 1)",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#22d3ee",
+      "tmdb": {
+        "media": "tv",
+        "id": 84958
+      },
+      "poster": "assets/posters/loki-s1.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/rX1wQMTKFqF0gvZyS0DDQqgnQPB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg"
+      },
+      "backdrop": "assets/backdrops/loki-s1.jpg"
+    },
+    "black-widow": {
+      "id": "black-widow",
+      "title": "Black Widow",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#b91c1c",
+      "tmdb": {
+        "media": "movie",
+        "id": 497698
+      },
+      "poster": "assets/posters/black-widow.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/keIxh0wPr2Ymj0Btjh4gW7JJ89e.jpg"
+      },
+      "backdrop": "assets/backdrops/black-widow.jpg"
+    },
+    "what-if-s1": {
+      "id": "what-if-s1",
+      "title": "What If\u2026? (Season 1)",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#a855f7",
+      "tmdb": {
+        "media": "tv",
+        "id": 91363
+      },
+      "poster": "assets/posters/what-if-s1.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/zaqfFDUrSfIljdD0OBxSjcutX8n.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jnzoh5qoxRLFRIQAxnl6D3RStPC.jpg"
+      },
+      "backdrop": "assets/backdrops/what-if-s1.jpg"
+    },
+    "shang-chi": {
+      "id": "shang-chi",
+      "title": "Shang-Chi and the Legend of the Ten Rings",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#f59e0b",
+      "tmdb": {
+        "media": "movie",
+        "id": 566525
+      },
+      "poster": "assets/posters/shang-chi.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/9f2Q0U3IOsLgrI2HkvldwSABZy5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/r7K6Xt0RX4Mw0cAbZVw5cyb1Tux.jpg"
+      },
+      "backdrop": "assets/backdrops/shang-chi.jpg"
+    },
+    "eternals": {
+      "id": "eternals",
+      "title": "Eternals",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#d4a017",
+      "tmdb": {
+        "media": "movie",
+        "id": 524434
+      },
+      "poster": "assets/posters/eternals.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/lFByFSLV5WDJEv3KabbdAF959F2.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg"
+      },
+      "backdrop": "assets/backdrops/eternals.jpg"
+    },
+    "hawkeye": {
+      "id": "hawkeye",
+      "title": "Hawkeye",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#7c3aed",
+      "tmdb": {
+        "media": "tv",
+        "id": 88329
+      },
+      "poster": "assets/posters/hawkeye.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/ct5pNE5dDHryHLDnxyZPYcqO1sz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9QNv2Al3GfCND8BwuLmu2GwVht7.jpg"
+      },
+      "backdrop": "assets/backdrops/hawkeye.jpg"
+    },
+    "spider-man-no-way-home": {
+      "id": "spider-man-no-way-home",
+      "title": "Spider-Man: No Way Home",
+      "year": 2021,
+      "era": "phase-4",
+      "accent": "#ef4444",
+      "tmdb": {
+        "media": "movie",
+        "id": 634649
+      },
+      "poster": "assets/posters/spider-man-no-way-home.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg"
+      },
+      "backdrop": "assets/backdrops/spider-man-no-way-home.jpg"
+    },
+    "doctor-strange-mom": {
+      "id": "doctor-strange-mom",
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "year": 2022,
+      "era": "phase-4",
+      "accent": "#e879f9",
+      "tmdb": {
+        "media": "movie",
+        "id": 453395
+      },
+      "poster": "assets/posters/doctor-strange-mom.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/ddJcSKbcp4rKZTmuyWaMhuwcfMz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg"
+      },
+      "backdrop": "assets/backdrops/doctor-strange-mom.jpg"
+    },
+    "ms-marvel": {
+      "id": "ms-marvel",
+      "title": "Ms. Marvel",
+      "year": 2022,
+      "era": "phase-4",
+      "accent": "#f472b6",
+      "tmdb": {
+        "media": "tv",
+        "id": 92783
+      },
+      "poster": "assets/posters/ms-marvel.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eljErfkQUcFUgQkI4I1soZcH8MW.jpg"
+      },
+      "backdrop": "assets/backdrops/ms-marvel.jpg"
+    },
+    "thor-love-and-thunder": {
+      "id": "thor-love-and-thunder",
+      "title": "Thor: Love and Thunder",
+      "year": 2022,
+      "era": "phase-4",
+      "accent": "#f43f5e",
+      "tmdb": {
+        "media": "movie",
+        "id": 616037
+      },
+      "poster": "assets/posters/thor-love-and-thunder.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg"
+      },
+      "backdrop": "assets/backdrops/thor-love-and-thunder.jpg"
+    },
+    "she-hulk": {
+      "id": "she-hulk",
+      "title": "She-Hulk: Attorney at Law",
+      "year": 2022,
+      "era": "phase-4",
+      "accent": "#86efac",
+      "tmdb": {
+        "media": "tv",
+        "id": 92749
+      },
+      "poster": "assets/posters/she-hulk.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/x6FsYvt33846IQnDSFxla9j0RX8.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1uegR4uAxRxiMyX4nQnpzbXhrTw.jpg"
+      },
+      "backdrop": "assets/backdrops/she-hulk.jpg"
+    },
+    "black-panther-wakanda-forever": {
+      "id": "black-panther-wakanda-forever",
+      "title": "Black Panther: Wakanda Forever",
+      "year": 2022,
+      "era": "phase-4",
+      "accent": "#0ea5e9",
+      "tmdb": {
+        "media": "movie",
+        "id": 505642
+      },
+      "poster": "assets/posters/black-panther-wakanda-forever.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/83H0C66AcvkwpG2738VCTHMY9uv.jpg"
+      },
+      "backdrop": "assets/backdrops/black-panther-wakanda-forever.jpg"
+    },
+    "ant-man-quantumania": {
+      "id": "ant-man-quantumania",
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "year": 2023,
+      "era": "phase-5",
+      "accent": "#a855f7",
+      "tmdb": {
+        "media": "movie",
+        "id": 640146
+      },
+      "poster": "assets/posters/ant-man-quantumania.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/m8JTwHFwX7I7JY5fPe4SjqejWag.jpg"
+      },
+      "backdrop": "assets/backdrops/ant-man-quantumania.jpg"
+    },
+    "guardians-of-the-galaxy-vol-3": {
+      "id": "guardians-of-the-galaxy-vol-3",
+      "title": "Guardians of the Galaxy Vol. 3",
+      "year": 2023,
+      "era": "phase-5",
+      "accent": "#f59e0b",
+      "tmdb": {
+        "media": "movie",
+        "id": 447365
+      },
+      "poster": "assets/posters/guardians-of-the-galaxy-vol-3.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg"
+      },
+      "backdrop": "assets/backdrops/guardians-of-the-galaxy-vol-3.jpg"
+    },
+    "secret-invasion": {
+      "id": "secret-invasion",
+      "title": "Secret Invasion",
+      "year": 2023,
+      "era": "phase-5",
+      "accent": "#22c55e",
+      "tmdb": {
+        "media": "tv",
+        "id": 114472
+      },
+      "poster": "assets/posters/secret-invasion.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/3rINdUPSy9AklJg74jWHOyUXuZd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6mOK9j99OFlxGc3ird2jWUeUha9.jpg"
+      },
+      "backdrop": "assets/backdrops/secret-invasion.jpg"
+    },
+    "loki-s2": {
+      "id": "loki-s2",
+      "title": "Loki (Season 2)",
+      "year": 2023,
+      "era": "phase-5",
+      "accent": "#67e8f9",
+      "tmdb": {
+        "media": "tv",
+        "id": 84958
+      },
+      "poster": "assets/posters/loki-s2.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/rX1wQMTKFqF0gvZyS0DDQqgnQPB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg"
+      },
+      "backdrop": "assets/backdrops/loki-s2.jpg"
+    },
+    "the-marvels": {
+      "id": "the-marvels",
+      "title": "The Marvels",
+      "year": 2023,
+      "era": "phase-5",
+      "accent": "#fbbf24",
+      "tmdb": {
+        "media": "movie",
+        "id": 609681
+      },
+      "poster": "assets/posters/the-marvels.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg"
+      },
+      "backdrop": "assets/backdrops/the-marvels.jpg"
+    },
+    "echo": {
+      "id": "echo",
+      "title": "Echo",
+      "year": 2024,
+      "era": "phase-5",
+      "accent": "#d97706",
+      "tmdb": {
+        "media": "tv",
+        "id": 122226
+      },
+      "poster": "assets/posters/echo.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/vFyJH630cF68LohVYjQW49074Sy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/u3ySnWqSjM3jedYgJZTR7RWRDDm.jpg"
+      },
+      "backdrop": "assets/backdrops/echo.jpg"
+    },
+    "deadpool-wolverine": {
+      "id": "deadpool-wolverine",
+      "title": "Deadpool & Wolverine",
+      "year": 2024,
+      "era": "phase-5",
+      "accent": "#ef4444",
+      "tmdb": {
+        "media": "movie",
+        "id": 533535
+      },
+      "poster": "assets/posters/deadpool-wolverine.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg"
+      },
+      "backdrop": "assets/backdrops/deadpool-wolverine.jpg"
+    },
+    "captain-america-brave-new-world": {
+      "id": "captain-america-brave-new-world",
+      "title": "Captain America: Brave New World",
+      "year": 2025,
+      "era": "phase-5",
+      "accent": "#dc2626",
+      "tmdb": {
+        "media": "movie",
+        "id": 822119
+      },
+      "poster": "assets/posters/captain-america-brave-new-world.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ywe9S1cOyIhR5yWzK7511NuQ2YX.jpg"
+      },
+      "backdrop": "assets/backdrops/captain-america-brave-new-world.jpg"
+    },
+    "daredevil-born-again": {
+      "id": "daredevil-born-again",
+      "title": "Daredevil: Born Again",
+      "year": 2025,
+      "era": "phase-5",
+      "accent": "#991b1b",
+      "tmdb": {
+        "media": "tv",
+        "id": 202555
+      },
+      "poster": "assets/posters/daredevil-born-again.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/m291MEBjhuRqb0nh9ojnm9gzScq.jpg"
+      },
+      "backdrop": "assets/backdrops/daredevil-born-again.jpg"
+    },
+    "thunderbolts": {
+      "id": "thunderbolts",
+      "title": "Thunderbolts*",
+      "year": 2025,
+      "era": "phase-5",
+      "accent": "#4ade80",
+      "tmdb": {
+        "media": "movie",
+        "id": 986056
+      },
+      "poster": "assets/posters/thunderbolts.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg"
+      },
+      "backdrop": "assets/backdrops/thunderbolts.jpg"
+    },
+    "ironheart": {
+      "id": "ironheart",
+      "title": "Ironheart",
+      "year": 2025,
+      "era": "phase-5",
+      "accent": "#f59e0b",
+      "tmdb": {
+        "media": "tv",
+        "id": 202555
+      },
+      "poster": "assets/posters/ironheart.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/m291MEBjhuRqb0nh9ojnm9gzScq.jpg"
+      },
+      "backdrop": "assets/backdrops/ironheart.jpg"
+    },
+    "fantastic-four-first-steps": {
+      "id": "fantastic-four-first-steps",
+      "title": "The Fantastic Four: First Steps",
+      "year": 2025,
+      "era": "phase-6",
+      "accent": "#2563eb",
+      "tmdb": {
+        "media": "movie",
+        "id": 617126
+      },
+      "poster": "assets/posters/fantastic-four-first-steps.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/s94NjfKkcSczZ1FembwmQZwsuwY.jpg"
+      },
+      "backdrop": "assets/backdrops/fantastic-four-first-steps.jpg"
+    },
+    "spider-man-brand-new-day": {
+      "id": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day",
+      "year": 2026,
+      "era": "phase-6",
+      "accent": "#ef4444",
+      "tmdb": {
+        "media": "movie",
+        "id": 1197306
+      },
+      "poster": "assets/posters/spider-man-brand-new-day.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/6FRFIogh3zFnVWn7Z6zcYnIbRcX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fTrQsdMS2MUw00RnzH0r3JWHhts.jpg"
+      },
+      "backdrop": "assets/backdrops/spider-man-brand-new-day.jpg"
+    },
+    "avengers-doomsday": {
+      "id": "avengers-doomsday",
+      "title": "Avengers: Doomsday",
+      "year": 2026,
+      "era": "phase-6",
+      "accent": "#16a34a",
+      "tmdb": {
+        "media": "movie",
+        "id": 1003596
+      },
+      "poster": "assets/posters/avengers-doomsday.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/bh2OuKvq19jBHsloUVCfPSZZw81.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/s4v0UX1anfXm0UvloLsTTJ4v222.jpg"
+      },
+      "backdrop": "assets/backdrops/avengers-doomsday.jpg"
+    },
+    "avengers-secret-wars": {
+      "id": "avengers-secret-wars",
+      "title": "Avengers: Secret Wars",
+      "year": 2027,
+      "era": "phase-6",
+      "accent": "#c9a227",
+      "tmdb": {
+        "media": "movie",
+        "id": 1003598
+      },
+      "poster": "assets/posters/avengers-secret-wars.jpg",
+      "sources": {
+        "poster": "https://image.tmdb.org/t/p/w780/f0YBuh4hyiAheXhh4JnJWoKi9g5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rytc6Lf4447C0CDncwFa4gxe0vY.jpg"
+      },
+      "backdrop": "assets/backdrops/avengers-secret-wars.jpg"
+    },
+    "visionquest": {
+      "id": "visionquest",
+      "title": "VisionQuest",
+      "poster": "assets/posters/visionquest.webp",
+      "posterJpg": "assets/posters/visionquest.jpg",
+      "posterPublic": "/media/posters/visionquest.webp",
+      "backdrop": "assets/backdrops/visionquest.jpg",
+      "backdropPublic": "/media/backdrops/visionquest.jpg",
+      "source": {
+        "kind": "user-provided",
+        "artist": "bensolo_cup",
+        "originalPath": "/Users/himalaya/Desktop/what-do-you-guy-want-to-see-in-vision-quest-poster-by-me-v0-9w9wfpirbpeb1.webp",
+        "localWebp": "assets/posters/visionquest.webp",
+        "localJpg": "assets/posters/visionquest.jpg"
+      }
+    }
+  }
+}

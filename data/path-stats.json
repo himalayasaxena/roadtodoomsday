@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-08-10T17:57:49Z",
+  "doomsdayReleaseAt": "2026-12-18T00:00:00Z",
+  "hoursUntilDoomsday": 3102.0,
+  "secondsUntilDoomsday": 11167330,
+  "tracks": {
+    "complete": {
+      "name": "Complete Multiverse Path",
+      "titleCount": 80,
+      "watchMinutes": 8809,
+      "watchHours": 146.8,
+      "watchLabel": "146h 49m",
+      "daysAt8hPerDay": 18.4,
+      "hoursUntilRelease": 3102.0,
+      "hoursBuffer": 2955.2,
+      "canFinishBeforeRelease": true
+    },
+    "prep": {
+      "name": "Doomsday Prep (Recommended)",
+      "titleCount": 38,
+      "watchMinutes": 4549,
+      "watchHours": 75.8,
+      "watchLabel": "75h 49m",
+      "daysAt8hPerDay": 9.5,
+      "hoursUntilRelease": 3102.0,
+      "hoursBuffer": 3026.2,
+      "canFinishBeforeRelease": true
+    },
+    "crash": {
+      "name": "Crash Course",
+      "titleCount": 18,
+      "watchMinutes": 2205,
+      "watchHours": 36.8,
+      "watchLabel": "36h 45m",
+      "daysAt8hPerDay": 4.6,
+      "hoursUntilRelease": 3102.0,
+      "hoursBuffer": 3065.2,
+      "canFinishBeforeRelease": true
+    },
+    "xmen": {
+      "name": "Fox X-Men Branch",
+      "titleCount": 14,
+      "watchMinutes": 1683,
+      "watchHours": 28.1,
+      "watchLabel": "28h 03m",
+      "daysAt8hPerDay": 3.5,
+      "hoursUntilRelease": 3102.0,
+      "hoursBuffer": 3073.9,
+      "canFinishBeforeRelease": true
+    }
+  }
+}
