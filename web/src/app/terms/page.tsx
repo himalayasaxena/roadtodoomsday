@@ -86,6 +86,12 @@ export default function TermsPage() {
         links as official studio communications. Share features exist for
         convenience among viewers, not for spam.
       </p>
+      <p>
+        Ordinary personal use, including marking progress, exporting a calendar
+        for yourself, and sending a path link to friends, is welcome. If
+        something on the site looks broken or mislabeled, report it through the
+        creator contact page rather than probing the infrastructure.
+      </p>
 
       <h2>Intellectual property on this site</h2>
       <p>
@@ -138,6 +144,33 @@ export default function TermsPage() {
         creates an employment, partnership, or agency relationship with Marvel
         or Disney. Local consumer protections that cannot be waived still
         apply where they apply.
+      </p>
+
+      <h2>Accuracy and editorial judgment</h2>
+      <p>
+        Paths, priority labels, and why-watch notes reflect curation for
+        theatrical prep. They are not a studio-approved syllabus. Titles can be
+        added, removed, or reordered as the catalog and the Doomsday
+        conversation change. Runtime totals and pace estimates are helpers for
+        planning. They are not a promise that your household can finish on any
+        particular night.
+      </p>
+      <p>
+        Region-aware watch buttons are convenience pointers based on public
+        availability signals. Licensing differs by country and can change
+        without notice. You remain responsible for how you access films and
+        shows through lawful services you already use or choose to subscribe
+        to. Doomsday Watch Path does not grant streaming rights.
+      </p>
+
+      <h2>Acceptable personal sharing</h2>
+      <p>
+        Sharing a path link with friends or family so you can watch the same
+        order is an intended use. Mass distribution that frames the site as an
+        official Marvel roadmap, or automated harvesting of path data for a
+        competing commercial product, is not. If you republish substantial
+        original copy from these pages, credit the project and do not imply
+        studio approval.
       </p>
 
       <h2>Contact</h2>

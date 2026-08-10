@@ -74,6 +74,13 @@ export default function CustomPathGuidePage() {
         to schedule only what is left. If the pace looks impossible, remove
         chips before you export. Scheduling a fantasy list helps nobody.
       </p>
+      <p>
+        Region toggles still work on a custom path. Switch between India and
+        the United States when you need better watch logos for where you are
+        watching tonight. Trailers remain available when the catalog has a
+        clean YouTube source. None of that changes the release order of your
+        stack. It only changes how easy it is to press play.
+      </p>
 
       <h2>Quality checks before you commit</h2>
       <p>
@@ -112,6 +119,33 @@ export default function CustomPathGuidePage() {
         if the gaps feel weird. Stop when remaining hours fit your real weeks.
         Share the link with anyone watching along. Export the calendar after
         progress marks are honest.
+      </p>
+
+      <h2>Editing without starting over</h2>
+      <p>
+        Custom lists change. Someone finishes a show early, or a friend vetoes
+        a season your group does not want. Remove the chip, confirm the
+        timeline still reads cleanly, then share again. Because the link carries
+        the selection, an updated URL is cleaner than asking everyone to
+        remember verbal cuts. If progress was encoded on an older link, expect
+        to reconcile marks once on the new path instead of assuming both URLs
+        stay identical forever.
+      </p>
+      <p>
+        Keep a small buffer when you build. Leave one optional title out on
+        purpose so a missed night does not force a panic cut later. Custom is
+        flexible, but constant reshuffling burns the same energy as arguing
+        about Reddit lists. Decide, share, watch.
+      </p>
+
+      <h2>Custom and the deadline</h2>
+      <p>
+        The Doomsday countdown still applies. A beautiful bespoke list that
+        needs three hours a night for eight weeks is still a bad list if you
+        only have weeknights free. Use the rail the same way you would on
+        Recommended. If the pace looks impossible, remove titles before you
+        invite friends. A shared custom path should feel like a plan, not a
+        dare.
       </p>
       <p>
         For preset comparisons, read the{" "}

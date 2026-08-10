@@ -123,6 +123,12 @@ export default function PrivacyPage() {
         exports. Provider buttons may be less accurate outside those regions.
         Analytics may still record coarse geography through Google.
       </p>
+      <p>
+        If you live outside those two regions, treat watch logos as hints and
+        confirm titles in your local storefront. The roadmap order and runtime
+        budget remain useful regardless of which app holds the license this
+        month.
+      </p>
 
       <h2>Your choices</h2>
       <p>
@@ -132,6 +138,22 @@ export default function PrivacyPage() {
         understanding that progress will not stick. Those choices are yours.
         The site remains usable for read-only browsing of paths and guides
         even when storage and analytics are limited.
+      </p>
+
+      <h2>What we do not collect today</h2>
+      <p>
+        In the current product, Doomsday Watch Path does not ask for an email
+        address to create an account, does not sell tickets, and does not ask
+        for payment details. It does not operate a public comment board that
+        stores your posts on our servers. Watch progress is a local browser
+        concern unless you choose to put markers into a share URL that other
+        people can open.
+      </p>
+      <p>
+        If a future version adds accounts, cloud sync, or email features, this
+        policy will need a clearer rewrite before those features go live. Until
+        then, treat the site as a planning tool that leans on device storage
+        plus standard hosting and analytics infrastructure.
       </p>
 
       <h2>Changes</h2>

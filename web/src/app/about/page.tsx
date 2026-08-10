@@ -139,6 +139,24 @@ export default function AboutPage() {
         with the deadline.
       </p>
 
+      <h2>How the site stays honest about time</h2>
+      <p>
+        Most catch-up lists fail because they hide the cost of finishing. A
+        title stack that looks neat in a blog post can still be forty hours of
+        sitting. Doomsday Watch Path puts remaining runtime next to the
+        countdown so the plan has to survive contact with your week. If the
+        sticky rail says you need two hours a night and you only have one free
+        evening, that is useful friction. It pushes you toward Crash, a custom
+        cut, or an earlier start instead of a quiet quit in November.
+      </p>
+      <p>
+        Skipping is treated as a first-class choice for the same reason. Leaving
+        a title unmarked while promising yourself you will &quot;maybe&quot; get
+        to it later keeps the remaining pile fake. Mark skipped when you mean
+        skipped. The path then reflects the movie night you will actually have,
+        not the movie night you wish you had.
+      </p>
+
       <h2>Start here</h2>
       <p>
         If you are unsure which path to take, open the{" "}

@@ -63,6 +63,13 @@ export default function CalendarGuidePage() {
         real routine, regenerate with a different time instead of editing
         twenty events by hand.
       </p>
+      <p>
+        If your calendar app asks which calendar to place events on, pick a
+        personal calendar you check daily. Putting MCU sittings on a work
+        calendar you ignore at night is a quiet way to miss them. Rename or
+        color-code the imported series if your app supports it, so movie nights
+        do not disappear into a wall of meetings.
+      </p>
 
       <h2>What the calendar is not</h2>
       <p>
@@ -117,14 +124,33 @@ export default function CalendarGuidePage() {
         countdown does not care about perfect streaks. It cares about remaining
         hours.
       </p>
+
+      <h2>When stacked nights are a warning, not a challenge</h2>
+      <p>
+        A preview that packs two long films into one evening is telling you the
+        remaining runtime does not fit your available nights. You can accept a
+        rare double feature if that is how you already watch. More often, the
+        better move is to shorten the path, mark more skips, or start earlier
+        in the day on weekends only. Calendar planning should reveal pressure,
+        not invent a heroic schedule you abandon after three days.
+      </p>
+      <p>
+        If you keep regenerating the same overloaded plan and deleting events
+        later, stop exporting until the sticky rail looks human. The .ics file
+        is only as smart as the open queue you feed it.
+      </p>
+
+      <h2>Where this fits in the product loop</h2>
       <p>
         Pair this guide with the{" "}
         <Link href="/guides/mcu-watch-order">MCU watch order guide</Link> so
         you are not scheduling a list you never meant to finish. For button
         locations and progress marks, see{" "}
-        <Link href="/how-it-works">How it works</Link>. When you are ready,
-        pick a path from the <Link href="/">home page</Link> and export from
-        there.
+        <Link href="/how-it-works">How it works</Link>. If your list needs a
+        personal cut first, read the{" "}
+        <Link href="/guides/custom-path">custom path guide</Link>, then export.
+        When you are ready, pick a path from the <Link href="/">home page</Link>{" "}
+        and open Add to Calendar from there.
       </p>
     </ContentPage>
   );

@@ -69,7 +69,8 @@ export default function WatchOrderGuidePage() {
         Crash is not a flex. It is triage. If you finish Crash early, you can
         always graduate into Recommended leftovers or character arcs under
         More. Starting on Complete when you have three weeks left is how
-        people quit entirely.
+        people quit entirely. Better a finished short list than an abandoned
+        long one.
       </p>
 
       <h2>Complete: the full release-order catalog</h2>
@@ -128,6 +129,31 @@ export default function WatchOrderGuidePage() {
         A good MCU watch order for Doomsday is not the longest list you can
         paste into Notes. It is the list you will finish, in an order that
         still makes the movie land.
+      </p>
+
+      <h2>What people usually overcount</h2>
+      <p>
+        The most common planning mistake is counting titles you already know as
+        if they were still open work. The second is assuming every Disney+
+        series needs a full season before a movie night with friends. Priority
+        cues and why-watch notes exist so you can keep a bridge title without
+        pretending every episode is equally required for theatrical prep.
+      </p>
+      <p>
+        Another trap is mixing release-order prep with random rewatch favorites.
+        If you want comfort viewing, do it outside the remaining pile. Keep the
+        Doomsday queue for titles that still teach you something about the
+        conversation around the film. That is how Recommended stays useful and
+        Crash stays short.
+      </p>
+
+      <h2>After you pick a path</h2>
+      <p>
+        Mark progress the same day you choose. Then either stick with the rail
+        math or move to calendar export so nights become concrete. If the plan
+        breaks after two weeks, change the path length. Switching from Complete
+        to Recommended is not failure. It is course correction before the
+        deadline does it for you.
       </p>
       <p>
         For UI details, see <Link href="/how-it-works">How it works</Link>. For

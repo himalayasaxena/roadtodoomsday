@@ -80,7 +80,9 @@ export default function HowItWorksPage() {
       </p>
       <p>
         Only share what you are comfortable making public. Anyone with the URL
-        can reconstruct the encoded selection.
+        can reconstruct the encoded selection. If you only need accountability
+        without exposing marks, copy a clean path link and keep progress local
+        on your own device.
       </p>
 
       <h2>Step 5: Add remaining titles to your calendar</h2>
@@ -129,6 +131,22 @@ export default function HowItWorksPage() {
         your app. If a shared custom link opens empty, the code may be damaged
         by a messenger that truncated the URL. Paste into the browser address
         bar directly when that happens.
+      </p>
+
+      <h2>A simple weekly habit</h2>
+      <p>
+        The product works best when you treat it like a checklist, not a one-time
+        inspiration dump. Pick a path once. Mark anything you already know on
+        the first night. Export a calendar when the remaining hours look real.
+        Midweek, open the path again and clear what you finished. If life steals
+        two sittings, regenerate the plan instead of pretending the old events
+        still match your week.
+      </p>
+      <p>
+        That loop keeps the sticky rail honest. Friends who share the same link
+        can compare notes without arguing about which Reddit list is correct.
+        You still watch inside your own streaming apps. The site only owns the
+        order, the marks, and the deadline math.
       </p>
 
       <h2>Where to go next</h2>
