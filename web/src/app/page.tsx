@@ -5,10 +5,22 @@ import type { Title, Track } from "@/lib/types";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Path to Doomsday",
+  title: {
+    absolute: "Roadmap for Avengers: Doomsday",
+  },
   description:
-    "Pick a path, browse character arcs, build custom, or add your plan to Calendar before Avengers: Doomsday.",
+    "Your watch roadmap to Avengers: Doomsday. Pick a path, catch the movies and shows you need first, and walk into Doomsday ready to understand it.",
   alternates: { canonical: "/" },
+  openGraph: {
+    title: "Roadmap for Avengers: Doomsday",
+    description:
+      "Your watch roadmap to Avengers: Doomsday. Pick a path, catch the movies and shows you need first, and walk into Doomsday ready to understand it.",
+  },
+  twitter: {
+    title: "Roadmap for Avengers: Doomsday",
+    description:
+      "Your watch roadmap to Avengers: Doomsday. Pick a path, catch the movies and shows you need first, and walk into Doomsday ready to understand it.",
+  },
 };
 
 export default function Home() {

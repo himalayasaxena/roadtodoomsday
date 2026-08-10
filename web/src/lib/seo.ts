@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
-const SITE_NAME = "Doomsday Watch Path";
+const SITE_NAME = "Roadmap for Avengers: Doomsday";
 const SITE_DESCRIPTION =
-  "MCU watch order to Avengers: Doomsday. Recommended, Crash, Complete, character arcs, and custom journeys with runtimes, scores, and where to watch.";
+  "Your watch roadmap to Avengers: Doomsday. Pick a path, catch the movies and shows you need first, and walk into Doomsday ready to understand it.";
 
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||

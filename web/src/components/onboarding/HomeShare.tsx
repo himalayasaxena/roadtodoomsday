@@ -4,7 +4,7 @@ import { useState } from "react";
 import { copyTextAsync, shareJourney } from "@/lib/share";
 
 const CAPTION =
-  "Doomsday Watch Path. Pick your MCU roadmap before Avengers: Doomsday.";
+  "Roadmap for Avengers: Doomsday. Pick a path and catch the titles you need first.";
 
 export function HomeShare() {
   const [note, setNote] = useState("");

@@ -8,7 +8,7 @@ export function buildShareText(opts: {
 }) {
   const pct = opts.total ? Math.round((opts.watched / opts.total) * 100) : 0;
   return [
-    `My Doomsday Watch Path: ${opts.trackName}`,
+    `My Doomsday path: ${opts.trackName}`,
     `${opts.watched}/${opts.total} watched (${pct}%)`,
     `${opts.remainingHoursLabel} left · ${opts.daysLeft}d until Avengers: Doomsday`,
     opts.url,
@@ -25,7 +25,7 @@ export function buildShareCaption(opts: {
 }) {
   const pct = opts.total ? Math.round((opts.watched / opts.total) * 100) : 0;
   return [
-    `My Doomsday Watch Path: ${opts.trackName}`,
+    `My Doomsday path: ${opts.trackName}`,
     `${opts.watched}/${opts.total} watched (${pct}%)`,
     `${opts.remainingHoursLabel} left · ${opts.daysLeft}d until Avengers: Doomsday`,
   ].join("\n");
@@ -86,9 +86,9 @@ export async function shareJourney(text: string, url: string) {
     .join("\n");
 
   const attempts: ShareData[] = [
-    { title: "Doomsday Watch Path", text: caption, url },
-    { title: "Doomsday Watch Path", url },
-    { title: "Doomsday Watch Path", text: `${caption}\n${url}` },
+    { title: "Roadmap for Avengers: Doomsday", text: caption, url },
+    { title: "Roadmap for Avengers: Doomsday", url },
+    { title: "Roadmap for Avengers: Doomsday", text: `${caption}\n${url}` },
   ];
 
   for (const data of attempts) {
