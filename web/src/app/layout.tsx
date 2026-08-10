@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   const jsonLd = websiteJsonLd();
   return (
     <html lang="en" className={`${display.variable} ${body.variable} h-full`}>
-      <body className="min-h-full antialiased">
+      <body className="site-body antialiased">
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
           strategy="afterInteractive"
@@ -45,7 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        {children}
+        <div className="site-main">{children}</div>
         <SiteFooter />
         <SpeedInsights />
       </body>

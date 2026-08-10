@@ -41,6 +41,17 @@ body {
   letter-spacing: 0.01em;
 }
 
+.site-body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
 a {
   color: inherit;
 }
@@ -2150,24 +2161,34 @@ a.chip-btn {
 }
 
 .site-footer {
+  /* Sit above fixed home/path backdrops (z-index: 0) so footer is readable */
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
   margin-top: auto;
-  padding: 2rem 1.25rem 2.5rem;
-  border-top: 1px solid color-mix(in oklab, var(--fg) 12%, transparent);
+  width: 100%;
+  padding: 1.75rem 1.25rem max(2rem, env(safe-area-inset-bottom));
+  border-top: 1px solid color-mix(in oklab, var(--fg) 10%, transparent);
+  background: color-mix(in oklab, #050505 92%, transparent);
   color: var(--muted);
-  font-size: 0.8rem;
-  line-height: 1.55;
   text-align: center;
-  max-width: 44rem;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.site-footer-inner {
+  max-width: 36rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.85rem;
 }
 
 .site-footer-brand {
-  margin: 0 0 0.85rem !important;
+  margin: 0;
   font-family: var(--font-display-stack);
   font-weight: 700;
-  font-size: 1.05rem;
-  letter-spacing: 0.06em;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #fff;
 }
@@ -2175,17 +2196,17 @@ a.chip-btn {
 .site-footer-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.45rem 0.85rem;
+  gap: 0.35rem 1rem;
   justify-content: center;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 .site-footer-nav a {
-  color: color-mix(in oklab, #fff 78%, var(--muted));
+  color: color-mix(in oklab, #fff 70%, transparent);
   text-decoration: none;
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
 }
 
 .site-footer-nav a:hover,
@@ -2195,35 +2216,43 @@ a.chip-btn {
 }
 
 .site-footer-credit {
-  margin: 0 0 0.85rem !important;
-  color: color-mix(in oklab, #fff 72%, var(--muted));
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: color-mix(in oklab, #fff 62%, transparent);
 }
 
 .site-footer-credit a {
-  color: var(--accent-2);
+  color: color-mix(in oklab, #fff 88%, transparent);
   text-decoration: none;
   font-weight: 600;
 }
 
 .site-footer-credit a:hover,
 .site-footer-credit a:focus-visible {
-  text-decoration: underline;
+  color: #fff;
   outline: none;
 }
 
-.site-footer p {
-  margin: 0;
+.site-footer-sep {
+  margin: 0 0.35rem;
+  opacity: 0.45;
 }
 
-.site-footer p + p {
-  margin-top: 0.65rem;
+.site-footer-note {
+  margin: 0;
+  max-width: 28rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: color-mix(in oklab, #fff 42%, transparent);
 }
 
 /* Static content / legal pages */
 .content-page {
   position: relative;
-  min-height: 100vh;
-  padding: clamp(1.25rem, 3vw, 2.25rem) clamp(1rem, 3vw, 2rem) 3rem;
+  z-index: 1;
+  min-height: 100%;
+  padding: clamp(1.25rem, 3vw, 2.25rem) clamp(1rem, 3vw, 2rem) 2rem;
   background:
     radial-gradient(
       100% 60% at 50% -10%,
