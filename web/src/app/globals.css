@@ -2239,6 +2239,12 @@ a.chip-btn {
   opacity: 0.45;
 }
 
+.site-footer-himika {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: color-mix(in oklab, #fff 88%, transparent);
+}
+
 .site-footer-note {
   margin: 0;
   max-width: 28rem;

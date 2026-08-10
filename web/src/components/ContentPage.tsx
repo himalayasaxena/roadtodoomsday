@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { pageMetadata } from "@/lib/seo";
 
 type Props = {
   title: string;
@@ -33,19 +34,5 @@ export function pageMeta(opts: {
   description: string;
   path: string;
 }): Metadata {
-  return {
-    title: opts.title,
-    description: opts.description,
-    alternates: { canonical: opts.path },
-    openGraph: {
-      title: opts.title,
-      description: opts.description,
-      url: opts.path,
-      type: "website",
-    },
-    twitter: {
-      title: opts.title,
-      description: opts.description,
-    },
-  };
+  return pageMetadata(opts);
 }

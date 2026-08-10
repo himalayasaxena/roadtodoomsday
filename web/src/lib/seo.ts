@@ -8,6 +8,15 @@ export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
   "https://doomsdayroadmap.com";
 
+/** Absolute OG/Twitter image — absolute URLs are most reliable for WhatsApp, LinkedIn, Facebook, X. */
+export const shareImage = {
+  url: `${siteUrl}/media/backdrops/avengers-doomsday.jpg`,
+  width: 1280,
+  height: 720,
+  alt: "Avengers: Doomsday",
+  type: "image/jpeg",
+} as const;
+
 export const rootMetadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
@@ -38,20 +47,18 @@ export const rootMetadata: Metadata = {
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
     url: siteUrl,
-    images: [
-      {
-        url: "/media/backdrops/avengers-doomsday.jpg",
-        width: 1280,
-        height: 720,
-        alt: "Avengers: Doomsday",
-      },
-    ],
+    images: [shareImage],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    images: ["/media/backdrops/avengers-doomsday.jpg"],
+    images: {
+      url: shareImage.url,
+      alt: shareImage.alt,
+      width: shareImage.width,
+      height: shareImage.height,
+    },
     creator: "@himalayasaxena",
   },
   robots: {
@@ -63,6 +70,39 @@ export const rootMetadata: Metadata = {
   },
 };
 
+export function pageMetadata(opts: {
+  title: string;
+  description: string;
+  path: string;
+}): Metadata {
+  const url = opts.path.startsWith("http") ? opts.path : `${siteUrl}${opts.path}`;
+  return {
+    title: opts.title,
+    description: opts.description,
+    alternates: { canonical: opts.path },
+    openGraph: {
+      title: opts.title,
+      description: opts.description,
+      url,
+      type: "website",
+      siteName: SITE_NAME,
+      locale: "en_US",
+      images: [shareImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: opts.title,
+      description: opts.description,
+      images: {
+        url: shareImage.url,
+        alt: shareImage.alt,
+        width: shareImage.width,
+        height: shareImage.height,
+      },
+    },
+  };
+}
+
 export function pathMetadata(opts: {
   trackName: string;
   description: string;
@@ -73,23 +113,31 @@ export function pathMetadata(opts: {
   const description =
     opts.description ||
     `${opts.trackName}: ${opts.count} titles in release order to prepare for Avengers: Doomsday.`;
+  const fullTitle = `${title} · ${SITE_NAME}`;
+  const image = { ...shareImage, alt: opts.trackName };
   return {
     title,
     description,
     alternates: { canonical: opts.path },
     openGraph: {
-      title: `${title} · ${SITE_NAME}`,
+      title: fullTitle,
       description,
       url: opts.path,
       type: "website",
-      images: [
-        { url: "/media/backdrops/avengers-doomsday.jpg", alt: opts.trackName },
-      ],
+      siteName: SITE_NAME,
+      locale: "en_US",
+      images: [image],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${title} · ${SITE_NAME}`,
+      title: fullTitle,
       description,
+      images: {
+        url: image.url,
+        alt: image.alt,
+        width: image.width,
+        height: image.height,
+      },
     },
   };
 }

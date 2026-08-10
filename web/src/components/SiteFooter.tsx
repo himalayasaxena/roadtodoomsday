@@ -25,8 +25,14 @@ export function SiteFooter() {
         <p className="site-footer-credit">
           Built by{" "}
           <a href="https://himalayasaxena.com" rel="noopener noreferrer">
-            Himalaya Saxena
+            Himalaya
           </a>
+          {" & "}
+          Ritika
+          <span className="site-footer-sep" aria-hidden>
+            ·
+          </span>
+          <span className="site-footer-himika">HIMIKA</span>
           <span className="site-footer-sep" aria-hidden>
             ·
           </span>
