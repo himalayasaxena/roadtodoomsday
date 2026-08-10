@@ -14,12 +14,11 @@ npm run dev
 
 ## Deploy (Vercel)
 
-1. Go to [vercel.com/new](https://vercel.com/new)
-2. Import **himalayasaxena/roadtodoomsday**
-3. Set **Root Directory** to `web`
-4. Deploy (no env vars required for the public site)
+**Live:** [https://path-to-doomsday.vercel.app](https://path-to-doomsday.vercel.app)
 
-Or from the CLI:
+GitHub repo is connected for auto-deploys. Project **Root Directory** is `web`.
+
+Manual CLI deploy:
 
 ```bash
 cd web
