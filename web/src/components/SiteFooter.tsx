@@ -45,8 +45,7 @@ export function SiteFooter() {
         </p>
 
         <p className="site-footer-note">
-          Fan-made roadmap. Not affiliated with Marvel or Disney. Posters via
-          TMDB · watch links via JustWatch.
+          Fan-made roadmap. Not affiliated with Marvel or Disney.
         </p>
       </div>
     </footer>
