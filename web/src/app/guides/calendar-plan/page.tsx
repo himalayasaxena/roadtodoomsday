@@ -3,9 +3,9 @@ import Link from "next/link";
 import { ContentPage, pageMeta } from "@/components/ContentPage";
 
 export const metadata: Metadata = pageMeta({
-  title: "Calendar planning guide",
+  title: "Calendar plan for your MCU Doomsday watch list",
   description:
-    "How to use Add to Calendar on Doomsday Watch Path to schedule remaining titles before Avengers: Doomsday.",
+    "How to use Add to Calendar on Doomsday Watch Path to schedule remaining MCU titles before Avengers: Doomsday with an .ics plan.",
   path: "/guides/calendar-plan",
 });
 
@@ -13,26 +13,118 @@ export default function CalendarGuidePage() {
   return (
     <ContentPage
       title="Calendar planning guide"
-      description="Turn remaining titles into sittings you can open in Apple, Google, or Outlook."
+      description="Turn leftover runtime into nights on your calendar before Avengers: Doomsday."
     >
       <p>
-        On any path, use <strong>Add to Calendar</strong> to build a personal
-        plan from titles you have not marked watched or skipped.
+        Knowing your MCU watch order is only half the problem. The other half
+        is finding nights to sit down. Doomsday Watch Path includes an Add to
+        Calendar flow that turns remaining titles into an .ics plan you can
+        open in Apple Calendar, Google Calendar, or Outlook. This guide
+        explains what the planner does, what it does not do, and how to get a
+        schedule you might actually keep.
       </p>
-      <h2>What you choose</h2>
+
+      <h2>What Add to Calendar uses</h2>
       <p>
-        Set a preferred start time and whether weekends count. The planner
-        spreads remaining runtime across nights until Doomsday and warns when
-        the schedule is tight.
-      </p>
-      <h2>What you get</h2>
-      <p>
-        A downloadable .ics file. On phones, the system share sheet can offer
-        Add to Calendar directly. Events are a fan plan, not studio showtimes.
+        The planner looks at titles still open on your current path: anything
+        not marked watched or skipped. That means you should update progress
+        before you export. If you leave old titles unmarked, the calendar will
+        overstuff your weeks with movies you already finished years ago.
       </p>
       <p>
-        Pick a path from the <Link href="/">home page</Link>, mark what you
-        already finished, then export the rest.
+        Secret Wars style placeholders that sit after Doomsday are kept out of
+        the to-Doomsday math where the product treats them as post-deadline.
+        The export is aimed at prep for Avengers: Doomsday, not infinite
+        backlog forever.
+      </p>
+
+      <h2>Settings that change the shape of the plan</h2>
+      <p>
+        You pick a preferred start time for sittings. That becomes the default
+        evening slot on each planned night. You also choose whether weekends
+        count. Weekday-only plans protect Saturday for life admin. Including
+        weekends shortens the calendar span when runtime is heavy.
+      </p>
+      <p>
+        The algorithm spreads remaining minutes across available nights until
+        the Doomsday deadline. When the remaining pile is large and nights are
+        few, the preview warns that some evenings will carry more than one
+        title. That warning is the point. It is better to see a stacked Friday
+        now than to discover it on December 10.
+      </p>
+
+      <h2>How to import the file</h2>
+      <p>
+        On many phones, saving or sharing the .ics file surfaces an Add to
+        Calendar action from the system sheet. On desktop, download the file
+        and open it with your calendar app, or use the app&apos;s import
+        calendar flow. Google Calendar, Apple Calendar, and Outlook all speak
+        .ics. After import, skim the first week. If the start time fights your
+        real routine, regenerate with a different time instead of editing
+        twenty events by hand.
+      </p>
+
+      <h2>What the calendar is not</h2>
+      <p>
+        This is not a theater showtimes feed. It is not a Disney+ release
+        calendar. It will not pause when you get sick, travel, or fall into a
+        new show. Streaming rights move. A title that was one tap away in
+        October might be missing in November. The event description is a
+        reminder to watch, not a ticket.
+      </p>
+      <p>
+        Doomsday Watch Path is also unofficial. Calendar entries are a fan
+        plan created by you for yourself. They are not affiliated with Marvel
+        or Disney.
+      </p>
+
+      <h2>A practical workflow</h2>
+      <p>
+        Open your path, mark everything you have already seen, confirm the
+        remaining hours on the sticky rail, then open Add to Calendar. If the
+        preview looks impossible, shorten the path first. Switch from Complete
+        to Recommended, or Recommended to Crash, or drop titles in Custom.
+        Export again only after the remaining runtime fits a life you
+        recognize.
+      </p>
+      <p>
+        Re-export when you skip a week. Old events can stay as history or be
+        deleted in your calendar app. The site does not sync back into Google
+        over OAuth in this version. The .ics file is the handoff.
+      </p>
+
+      <h2>Group plans and shared accountability</h2>
+      <p>
+        If two people share a path link, they still keep separate calendars
+        unless they import the same .ics. That is fine. One person can own the
+        schedule while the other owns snacks. When someone falls behind, update
+        progress on the site first, then regenerate. Editing dozens of calendar
+        events by hand is how plans die.
+      </p>
+      <p>
+        Time zones matter if you travel. The planner uses your chosen start
+        time as a local sitting preference. After import, confirm the first
+        event in your calendar app before trusting the whole series.
+      </p>
+
+      <h2>Tips that keep plans alive</h2>
+      <p>
+        Put sittings at a time you already protect, like after dinner, not at
+        11:40 p.m. unless that is truly when you watch. Keep weekends out if
+        family logistics always win those days. Use Share on the path when you
+        want a friend to hold you to the same list, then keep calendar events
+        private if you prefer. If a week collapses, skip guilt and rebuild. The
+        countdown does not care about perfect streaks. It cares about remaining
+        hours.
+      </p>
+      <p>
+        Pair this guide with the{" "}
+        <Link href="/guides/mcu-watch-order">MCU watch order guide</Link> so
+        you are not scheduling a list you never meant to finish. For button
+        locations and progress marks, see{" "}
+        <Link href="/how-it-works">How it works</Link>. When you are ready,
+        pick a path from the <Link href="/">home page</Link> and export from
+        there.
       </p>
     </ContentPage>
   );
