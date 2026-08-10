@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Barlow, Oswald } from "next/font/google";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SiteFooter } from "@/components/SiteFooter";
 import { rootMetadata, websiteJsonLd } from "@/lib/seo";
 import "./globals.css";
@@ -46,6 +47,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
         {children}
         <SiteFooter />
+        <SpeedInsights />
       </body>
     </html>
   );
