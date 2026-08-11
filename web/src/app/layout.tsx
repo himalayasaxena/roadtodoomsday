@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Barlow, Oswald } from "next/font/google";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { OnlinePresence } from "@/components/OnlinePresence";
 import { SiteFooter } from "@/components/SiteFooter";
 import { rootMetadata, websiteJsonLd } from "@/lib/seo";
 import "./globals.css";
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <OnlinePresence />
         <div className="site-main">{children}</div>
         <SiteFooter />
         <SpeedInsights />
