@@ -14,8 +14,8 @@ function localAt(
 }
 
 describe("onlineCountAt", () => {
-  it("returns 275 for invalid Date", () => {
-    expect(onlineCountAt(new Date(Number.NaN))).toBe(275);
+  it("returns 350 for invalid Date", () => {
+    expect(onlineCountAt(new Date(Number.NaN))).toBe(350);
   });
 
   it("is stable for the same Date", () => {
@@ -23,14 +23,14 @@ describe("onlineCountAt", () => {
     expect(onlineCountAt(t)).toBe(onlineCountAt(t));
   });
 
-  it("always stays in [250, 300]", () => {
+  it("always stays in [200, 500]", () => {
     const day = localAt(2026, 8, 11, 0, 0);
     for (let min = 0; min < 24 * 60; min += 7) {
       const t = new Date(day.getTime() + min * 60_000);
       const n = onlineCountAt(t);
       expect(Number.isInteger(n)).toBe(true);
-      expect(n).toBeGreaterThanOrEqual(250);
-      expect(n).toBeLessThanOrEqual(300);
+      expect(n).toBeGreaterThanOrEqual(200);
+      expect(n).toBeLessThanOrEqual(500);
     }
   });
 
@@ -40,12 +40,30 @@ describe("onlineCountAt", () => {
     expect(evening).toBeGreaterThanOrEqual(overnight);
   });
 
-  it("does not jump by more than 5 between adjacent minutes", () => {
+  it("does not jump by more than 12 between adjacent minutes", () => {
     const base = localAt(2026, 8, 11, 12, 0);
     for (let i = 0; i < 180; i++) {
       const a = onlineCountAt(new Date(base.getTime() + i * 60_000));
       const b = onlineCountAt(new Date(base.getTime() + (i + 1) * 60_000));
-      expect(Math.abs(a - b)).toBeLessThanOrEqual(5);
+      expect(Math.abs(a - b)).toBeLessThanOrEqual(12);
+    }
+  });
+
+  it("can change within a 10-second window", () => {
+    const base = localAt(2026, 8, 11, 15, 0, 0);
+    const values = new Set<number>();
+    for (let s = 0; s <= 10; s++) {
+      values.add(onlineCountAt(new Date(base.getTime() + s * 1000)));
+    }
+    expect(values.size).toBeGreaterThan(1);
+  });
+
+  it("does not jump by more than 3 between adjacent seconds", () => {
+    const base = localAt(2026, 8, 11, 15, 0, 0);
+    for (let s = 0; s < 120; s++) {
+      const a = onlineCountAt(new Date(base.getTime() + s * 1000));
+      const b = onlineCountAt(new Date(base.getTime() + (s + 1) * 1000));
+      expect(Math.abs(a - b)).toBeLessThanOrEqual(3);
     }
   });
 });

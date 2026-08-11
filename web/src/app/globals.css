@@ -12,6 +12,8 @@
   --glass-strong: color-mix(in oklab, #0a0a0a 82%, transparent);
   --glass-blur: 48px;
   --glass-shadow: 0 8px 40px #000000a6, inset 0 1px 0 #ffffff26;
+  /* Sitewide online chip — keep sticky rails offset below this */
+  --online-presence-h: 2rem;
   /* next/font injects --font-display / --font-body on <html> */
   --font-display-stack: var(--font-display), "Arial Narrow", Impact, sans-serif;
   --font-body-stack: var(--font-body), "Helvetica Neue", Helvetica, sans-serif;
@@ -59,12 +61,11 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  min-height: 30px;
-  padding: 0.35rem clamp(0.75rem, 3vw, 1.25rem);
-  background: color-mix(in oklab, #0a0a0a 88%, transparent);
-  border-bottom: 1px solid color-mix(in oklab, #fff 10%, transparent);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  height: var(--online-presence-h);
+  min-height: var(--online-presence-h);
+  padding: 0 clamp(0.75rem, 3vw, 1.25rem);
+  background: #0a0a0a;
+  border-bottom: 1px solid color-mix(in oklab, #fff 12%, transparent);
 }
 
 .online-presence-inner {
@@ -928,7 +929,7 @@ a {
 
 .more-toolbar {
   position: sticky;
-  top: 0;
+  top: var(--online-presence-h);
   z-index: 3;
   display: flex;
   align-items: center;
@@ -1948,7 +1949,7 @@ a.chip-btn {
 
 .sticky-path-rail {
   position: sticky;
-  top: 0.85rem;
+  top: calc(var(--online-presence-h) + 0.5rem);
   z-index: 40;
   display: flex;
   flex-wrap: nowrap;
@@ -2195,7 +2196,7 @@ a.chip-btn {
   }
 
   .sticky-path-rail {
-    top: 0.65rem;
+    top: calc(var(--online-presence-h) + 0.35rem);
     margin-top: 0.25rem;
     padding: 0.4rem 0.5rem 0.4rem 0.55rem;
     border-radius: 999px;

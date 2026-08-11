@@ -183,7 +183,7 @@ These exist as data/assets/preview today; product work is to integrate them:
 
 Add raw ideas below; promote into numbered sections once accepted.
 
-- [x] Soft online presence chip (deterministic 250–300, sitewide) — shipped
+- [x] Soft online presence chip (deterministic 200–500, sitewide) — shipped
 - [ ] —
 
 ---
@@ -198,4 +198,4 @@ Add raw ideas below; promote into numbered sections once accepted.
 | 2026-08-10 | Calendar v1 = **`.ics` download**, not Google OAuth. |
 | 2026-08-10 | Collect features in this file before further feature implementation. |
 | 2026-08-11 | Path UI = **zigzag centered timeline**; SEO baseline (metadata, OG, JSON-LD, sitemap, robots). |
-| 2026-08-11 | Soft online presence = deterministic local time curve in [250, 300]; not real presence. |
+| 2026-08-11 | Soft online presence = deterministic local time curve in [200, 500]; not real presence. |

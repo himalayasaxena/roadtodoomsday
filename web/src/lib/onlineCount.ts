@@ -1,6 +1,6 @@
-const MIN = 250;
-const MAX = 300;
-const FALLBACK = 275;
+const MIN = 200;
+const MAX = 500;
+const FALLBACK = 350;
 
 function clamp(n: number, lo: number, hi: number) {
   return Math.min(hi, Math.max(lo, n));
@@ -24,17 +24,21 @@ export function onlineCountAt(date: Date): number {
   const hours =
     date.getHours() + date.getMinutes() / 60 + date.getSeconds() / 3600;
 
-  // Peak ~20:00 local, trough ~04:00. Range ≈ mid-250s → high-290s before wobble.
+  // Peak ~20:00 local, trough ~04:00.
   const phase = ((hours - 4) / 24) * Math.PI * 2;
   const tod = 0.5 + 0.5 * Math.sin(phase - Math.PI / 2);
-  // tod ≈ 0 at ~04:00, ≈ 1 at ~20:00
-  const base = 255 + tod * 40; // 255–295
+  // tod ≈ 0 at ~04:00, ≈ 1 at ~20:00 → base ≈ 230–480 before wobble
+  const base = 230 + tod * 250;
 
   const minuteOfDay = date.getHours() * 60 + date.getMinutes();
+  const secondOfDay =
+    minuteOfDay * 60 + date.getSeconds() + date.getMilliseconds() / 1000;
   const doy = dayOfYear(date);
+  // Slow drift (minutes) + faster wiggle so a 5–10s UI tick can change the digit.
   const wobble =
-    2.2 * Math.sin((minuteOfDay / 60) * 0.35 + doy * 0.17) +
-    1.4 * Math.sin((minuteOfDay / 40) * 0.55 + doy * 0.09);
+    14 * Math.sin((minuteOfDay / 60) * 0.35 + doy * 0.17) +
+    9 * Math.sin((minuteOfDay / 40) * 0.55 + doy * 0.09) +
+    3.2 * Math.sin(secondOfDay / 8.5 + doy * 0.05);
 
   return clamp(Math.round(base + wobble), MIN, MAX);
 }

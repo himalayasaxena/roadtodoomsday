@@ -3,16 +3,22 @@
 import { useEffect, useState } from "react";
 import { onlineCountAt } from "@/lib/onlineCount";
 
-const TICK_MS = 45_000;
+/** Random delay in [5s, 10s] so the chip feels live without a metronome beat. */
+function nextTickMs() {
+  return 5_000 + Math.floor(Math.random() * 5_001);
+}
 
 export function OnlinePresence() {
   const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
-    const tick = () => setCount(onlineCountAt(new Date()));
+    let timeoutId = 0;
+    const tick = () => {
+      setCount(onlineCountAt(new Date()));
+      timeoutId = window.setTimeout(tick, nextTickMs());
+    };
     tick();
-    const id = window.setInterval(tick, TICK_MS);
-    return () => window.clearInterval(id);
+    return () => window.clearTimeout(timeoutId);
   }, []);
 
   const label =
