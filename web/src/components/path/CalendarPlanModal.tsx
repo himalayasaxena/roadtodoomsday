@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
+import { trackEvent } from "@/lib/analytics";
 import {
   buildWatchSchedule,
   downloadIcs,
@@ -81,6 +82,13 @@ export function CalendarPlanModal({
 
   async function onDownload() {
     if (!titles.length) return;
+    trackEvent("calendar_export", {
+      track_id: trackId,
+      title_count: titles.length,
+      sitting_days: preview.sittingDays,
+      include_weekends: includeWeekends,
+      tight: preview.tight,
+    });
     await downloadIcs(
       `doomsday-watch-${trackId}.ics`,
       eventsToIcs(preview.events, trackName),

@@ -11,6 +11,7 @@ import {
   remainingLiveMinutes,
   countableTitles,
 } from "@/lib/remaining";
+import { trackEvent } from "@/lib/analytics";
 import type { Title } from "@/lib/types";
 import { CalendarPlanModal } from "./CalendarPlanModal";
 
@@ -146,7 +147,13 @@ export function StickyPathRail({
       <button
         type="button"
         className="calendar-fab"
-        onClick={() => setPlannerOpen(true)}
+        onClick={() => {
+          trackEvent("calendar_open", {
+            track_id: trackId,
+            titles_left: calendarTitles.length,
+          });
+          setPlannerOpen(true);
+        }}
         disabled={calendarEmpty}
         title={calendarEmpty ? "Nothing left to schedule" : "Add to Calendar"}
         aria-label="Add to Calendar"
