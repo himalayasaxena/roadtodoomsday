@@ -26,3 +26,5 @@ web/.vercel/
 # Local agent / scratch
 .superpowers/
 .worktrees/
+.vercel
+.env*
